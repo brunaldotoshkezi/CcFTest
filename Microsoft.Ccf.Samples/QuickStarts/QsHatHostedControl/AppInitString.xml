@@ -1,0 +1,21 @@
+<initstring>
+  <assemblyInfo>
+    <URL>C:\CCF\SourceCode\Microsoft.Ccf.Samples.Csr.AgentDesktop\Microsoft.Ccf.Samples\QuickStarts\QsHatHostedControl\bin\Debug\Microsoft.Ccf.QuickStarts.QsHatHostedControl.dll</URL>
+    <type>Microsoft.Ccf.QuickStarts.QsHatHostedControl</type>
+  </assemblyInfo>
+  <!-- only this sample uses the following WorkingDirectory configuration tag -->
+  <WorkingDirectory>C:\CCF\SourceCode\Microsoft.Ccf.Samples.Csr.AgentDesktop\Microsoft.Ccf.Samples\QuickStarts\StandAloneTestApp\bin\Debug</WorkingDirectory>
+  <DataDrivenAdapterBindings>
+    <Type>Microsoft.Ccf.HostedApplicationToolkit.DataDrivenAdapter.WinDataDrivenAdapter, Microsoft.Ccf.HostedApplicationToolkit.DataDrivenAdapter</Type>
+    <Controls>
+      <AccControl name="textbox_acc">
+        <Path>
+          <Next match="2">Test:</Next>
+          <Next>Test:</Next>
+        </Path>
+      </AccControl>
+    </Controls>
+  </DataDrivenAdapterBindings>
+  <global />
+  <displayGroup>mainpanel</displayGroup>
+</initstring>

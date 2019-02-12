@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ServiceReference>
+	<ProxyGenerationParameters
+		ServiceReferenceUri="http://ccfiis/Microsoft.Ccf.Csr.WebServices.ContactCenter/AgentStats.svc"
+		Name="AgentStats"
+		NotifyPropertyChange="True"
+		UseObservableCollection="False">
+	</ProxyGenerationParameters>
+	<EndPoints>
+		<EndPoint
+			Address="http://ccfiis/Microsoft.Ccf.Csr.WebServices.ContactCenter/AgentStats.svc"
+			BindingConfiguration="BasicHttpBinding_AgentState"
+			Contract="Microsoft.Ccf.Samples.Csr.AgentDesktop.AgentStats.AgentState"
+			>
+		</EndPoint>
+	</EndPoints>
+</ServiceReference>

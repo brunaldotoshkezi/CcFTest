@@ -1,0 +1,82 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN" >
+<HTML>
+    <HEAD>
+        <TITLE></TITLE>
+    </HEAD>
+    <BODY>
+        <P><FONT color="#ff0000" size="4" face="Arial">Sample CCF Web Actions</FONT></P>
+        <blockquote>
+            <P><FONT color="#ff9966" face="Arial"> <A href="ccf://StandAloneTestApp/PushButton?<GetFocus>true</GetFocus>">
+                        Click here to fire an action to StandAloneTestApp</A></FONT></P>
+            <P><FONT color="#ff9966" face="Arial"> <A href="ccfctx://update/Landline=9999999999">Click 
+                        here to update the phone number in the context </A></FONT></P>
+            <P><FONT color="#ff9966" face="Arial">
+                    <Button onclick="window.open('popup1.htm')">Create Popup</Button>&nbsp
+                    <Button onclick="window.open('popup2.htm')" ID="Button1">Prevent Popup</Button>&nbsp
+                    <Button onclick="window.open('popup3.htm')" ID="Button1">Intercept Popup</Button>&nbsp
+
+		<!--  for testing crashes in CCF hosted web pages
+		    <OBJECT classid=clsid:7D3D90C9-8AD5-4289-8A53-9ACDF2587254>
+			<PARAM NAME="_Version" VALUE="65536">
+			<PARAM NAME="_ExtentX" VALUE="2646">
+			<PARAM NAME="_ExtentY" VALUE="582">
+			<PARAM NAME="_StockProps" VALUE="0">
+			<SPAN STYLE="color:red">ActiveX control failed to load! Please check browser security settings.</SPAN>
+		    </OBJECT>
+		-->
+                </FONT>
+            </P>
+        </blockquote>
+<hr/>
+<form action="SampleWebApp.htm" method="GET" enctype="multipart/form-data">
+<p>This form has input controls for testing.</p>
+<p><b>Text field</b><br/>
+Your name: <input type="text" size="30" name="Name:"/>
+</p>
+<p><b>Password field</b><br/>
+Password: <input type="password" size="30" name="Password:"/></p>
+<p><b>Radio buttons</b><br/>
+Do you like pizza?<br/>
+<input type="radio" checked name="R1" value="Yes"/>
+    Yes<br/>
+<input type="radio" name="R1" value="No"/>
+    No<br/>
+<input type="radio" name="R1" value="Maybe"/>
+    May be<br/>
+<input type="radio" name="R1" value="Never tried"/>
+    Never tried</p>
+<p>
+<b>Check Box</b><br/>
+<input type="checkbox" name="Like"/>Check this box if you like our service
+</p>
+<p>
+<b>Text area</b><br/>
+Anything you would like to say?<br>
+<textarea name="Comments" rows="4" cols="40"></textarea>
+</p>
+<p>
+<b>Menu</b><br/>
+Your favorite color:<br/>
+<select name="Favourite Color:" size="1">
+        <option selected>red</option>
+        <option>green</option>
+        <option>blue</option>
+        <option>black</option>
+        <option>white</option>
+        <option>yellow</option>
+        <option>purple</option>
+        <option>Other</option>
+</select>
+</p>
+<p><b>Attach file</b><br/>
+(For security reasons FormNut.com allows only *.gif, *.jpg, *.jpeg, *.zip,
+*.doc, *.txt and *.pdf file types!)<br>
+Attach a photo (only .jpg, .jpeg, .gif and .zip formats allowed!):<br/>
+<input type="file" name="attach" size="40"/>
+<p><b>Buttons</b><br/>
+<input type="submit" value="&quot;Submit&quot; button"/>
+<input type="reset" value="&quot;Reset form&quot; button"/></p>
+</form>
+
+    </BODY>
+</HTML>

@@ -1,0 +1,11 @@
+<sso>
+<application name="Citrix StandaloneTestApp">
+<description>Citrix StandaloneTestApp application used to demonstrate SSO</description> 
+<contact>support@microsoft.com</contact> 
+<appuserAccount>CCF\SSO Affiliate Administrators</appuserAccount> 
+<appAdminAccount>CCF\SSO Administrators</appAdminAccount> 
+<field ordinal="0" label="User Id" masked="no" /> 
+<field ordinal="1" label="Password" masked="no" /> 
+<flags groupApp="no"  allowLocalAccounts="yes" enableApp="yes" />
+</application>
+</sso>

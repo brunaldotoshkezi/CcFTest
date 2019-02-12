@@ -1,0 +1,79 @@
+﻿<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.50727</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{5550C6AD-660A-4235-B546-B6FA10AD2523}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>CustomerWorkflowManager</RootNamespace>
+    <AssemblyName>Microsoft.Ccf.Samples.CustomerWorkflowManager</AssemblyName>
+    <SccProjectName>%24/CcfEverest/Public/Microsoft.Ccf.Samples.Csr.AgentDesktop/Microsoft.Ccf.Samples/Csr/CustomerWorkflowManager</SccProjectName>
+    <SccLocalPath>.</SccLocalPath>
+    <SccAuxPath>http://ccflab-8:8080</SccAuxPath>
+    <SccProvider>{4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}</SccProvider>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.Ccf.Csr.Core, Version=3.0.0.0, Culture=neutral, PublicKeyToken=4f00c1aa5320a4d9, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\Framework\Microsoft.Ccf.Csr.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Ccf.WorkflowManager, Version=0.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\Framework\Microsoft.Ccf.WorkflowManager.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Workflow.Activities, Version=3.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL" />
+    <Reference Include="System.Workflow.ComponentModel, Version=3.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL" />
+    <Reference Include="System.Workflow.Runtime, Version=3.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="CustomerWorkflowManager.cs">
+    </Compile>
+    <Compile Include="CustomerWorkflowManager.Designer.cs">
+      <DependentUpon>CustomerWorkflowManager.cs</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\CcfWorkflows\Microsoft.Ccf.Samples.CcfWorkflows.csproj">
+      <Project>{44D60868-E580-4037-8CE8-7F100BE0E419}</Project>
+      <Name>Microsoft.Ccf.Samples.CcfWorkflows</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\HostedControlInterfaces\Microsoft.Ccf.Samples.HostedControlInterfaces.csproj">
+      <Project>{2AFAEE48-72E8-4B22-85D1-B4B9B15E9575}</Project>
+      <Name>Microsoft.Ccf.Samples.HostedControlInterfaces</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Properties\" />
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

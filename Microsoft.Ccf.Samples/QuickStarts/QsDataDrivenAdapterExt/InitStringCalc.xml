@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<initstring>
+  <ShowMenu/>
+  <interopAssembly>
+	<URL>c:\windows\system32\calc.exe</URL>
+	<WorkingDirectory>c:\</WorkingDirectory>
+	<hostInside/>
+  </interopAssembly>
+  <DataDrivenAdapterBindings>
+	<Type>Microsoft.Ccf.QuickStarts.QsDataDrivenAdapterExt.WinDDAExt, Microsoft.Ccf.QuickStarts.QsDataDrivenAdapterExt</Type>
+	<Controls>
+	  <AccControl name="1key_acc">
+		<Path>
+		  <Next>1</Next>
+		  <Next>1</Next>
+		</Path>
+	  </AccControl>
+	  <NewTag1 name="control1"/>
+	  <NewTag2 name="control2"/>
+	  <NewTagBadTag name="control_bad"/>
+	</Controls>
+  </DataDrivenAdapterBindings>
+</initstring>

@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ServiceReference>
+	<ProxyGenerationParameters
+		ServiceReferenceUri="http://ccfiis/Microsoft.Ccf.Csr.WebServices.ContactCenter/Options.svc"
+		Name="Options"
+		NotifyPropertyChange="True"
+		UseObservableCollection="False">
+	</ProxyGenerationParameters>
+	<EndPoints>
+		<EndPoint
+			Address="http://ccfiis/Microsoft.Ccf.Csr.WebServices.ContactCenter/Options.svc"
+			BindingConfiguration="BasicHttpBinding_Options"
+			Contract="Microsoft.Ccf.Samples.Csr.AgentDesktop.Options.Options"
+			>
+		</EndPoint>
+	</EndPoints>
+</ServiceReference>

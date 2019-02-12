@@ -1,0 +1,43 @@
+﻿<SequentialWorkflowActivity x:Class="Microsoft.Ccf.Samples.CcfWorkflows.CcfWorkflowStep" x:Name="CcfWorkflowStep" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns="http://schemas.microsoft.com/winfx/2006/xaml/workflow">
+	<CallExternalMethodActivity x:Name="callSetFocus" InterfaceType="{x:Type Microsoft.Ccf.Samples.CcfWorkflows.IInteractionService}" MethodName="SetFocus">
+		<CallExternalMethodActivity.ParameterBindings>
+			<WorkflowParameterBinding ParameterName="handle">
+				<WorkflowParameterBinding.Value>
+					<ActivityBind Name="CcfWorkflowStep" Path="WFControlHandle" />
+				</WorkflowParameterBinding.Value>
+			</WorkflowParameterBinding>
+			<WorkflowParameterBinding ParameterName="hostedAppId">
+				<WorkflowParameterBinding.Value>
+					<ActivityBind Name="CcfWorkflowStep" Path="HostedApplicationId" />
+				</WorkflowParameterBinding.Value>
+			</WorkflowParameterBinding>
+		</CallExternalMethodActivity.ParameterBindings>
+	</CallExternalMethodActivity>
+	<IfElseActivity x:Name="DoAction">
+		<IfElseBranchActivity x:Name="ifDoAction">
+			<IfElseBranchActivity.Condition>
+				<RuleConditionReference ConditionName="IfDoAction" />
+			</IfElseBranchActivity.Condition>
+			<CallExternalMethodActivity x:Name="callDoAction" InterfaceType="{x:Type Microsoft.Ccf.Samples.CcfWorkflows.IInteractionService}" MethodName="SetDoAction">
+				<CallExternalMethodActivity.ParameterBindings>
+					<WorkflowParameterBinding ParameterName="action">
+						<WorkflowParameterBinding.Value>
+							<ActivityBind Name="CcfWorkflowStep" Path="Action" />
+						</WorkflowParameterBinding.Value>
+					</WorkflowParameterBinding>
+					<WorkflowParameterBinding ParameterName="handle">
+						<WorkflowParameterBinding.Value>
+							<ActivityBind Name="CcfWorkflowStep" Path="WFControlHandle" />
+						</WorkflowParameterBinding.Value>
+					</WorkflowParameterBinding>
+					<WorkflowParameterBinding ParameterName="hostedAppName">
+						<WorkflowParameterBinding.Value>
+							<ActivityBind Name="CcfWorkflowStep" Path="HostedApplicationName" />
+						</WorkflowParameterBinding.Value>
+					</WorkflowParameterBinding>
+				</CallExternalMethodActivity.ParameterBindings>
+			</CallExternalMethodActivity>
+		</IfElseBranchActivity>
+		<IfElseBranchActivity x:Name="ifElseBranchActivity2" />
+	</IfElseActivity>
+</SequentialWorkflowActivity>

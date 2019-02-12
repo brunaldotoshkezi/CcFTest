@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<initstring>
+  <homePage>http://ccfiis/Microsoft.Ccf.Samples.DemoWebApplication/SampleWebApp.htm</homePage>
+  <adapter>
+    <AutomationAdapter />
+  </adapter>
+  <DataDrivenAdapterBindings>
+    <Type>Microsoft.Ccf.HostedApplicationToolkit.DataDrivenAdapter.WebDataDrivenAdapter, Microsoft.Ccf.HostedApplicationToolkit.DataDrivenAdapter</Type>
+    <Controls>
+      <InputElement name="name textbox">
+        <AttributeMatchPath>
+          <name>Name:</name>
+        </AttributeMatchPath>
+      </InputElement>
+      <InputElement name="pw textbox">
+        <AttributeMatchPath>
+          <name>Password:</name>
+        </AttributeMatchPath>
+      </InputElement>
+      <InputElement name="likepizza yes">
+        <AttributeMatchPath>
+          <action>SampleWebApp.htm</action>
+          <type>radio</type>
+          <value>Yes</value>
+        </AttributeMatchPath>
+      </InputElement>
+      <InputElement name="likepizza no">
+        <AttributeMatchPath>
+          <action>SampleWebApp.htm</action>
+          <type>radio</type>
+          <value>No</value>
+        </AttributeMatchPath>
+      </InputElement>
+      <InputElement name="likepizza maybe">
+        <AttributeMatchPath>
+          <action>SampleWebApp.htm</action>
+          <type>radio</type>
+          <value>Maybe</value>
+        </AttributeMatchPath>
+      </InputElement>
+      <InputElement name="likepizza nevertried">
+        <AttributeMatchPath>
+          <action>SampleWebApp.htm</action>
+          <type>radio</type>
+          <value>Never tried</value>
+        </AttributeMatchPath>
+      </InputElement>
+      <InputElement name="like our service?">
+        <AttributeMatchPath>
+          <action>SampleWebApp.htm</action>
+          <type>checkbox</type>
+          <name>Like</name>
+        </AttributeMatchPath>
+      </InputElement>
+      <InputElement name="comments">
+        <AttributeMatchPath>
+          <action>SampleWebApp.htm</action>
+          <name>Comments</name>
+        </AttributeMatchPath>
+      </InputElement>
+      <SelectElement name="favorite color">
+        <AttributeMatchPath>
+          <action>SampleWebApp.htm</action>
+          <name>Favourite Color:</name>
+        </AttributeMatchPath>
+      </SelectElement>
+      <InputElement name="submit button">
+        <AttributeMatchPath>
+          <action>SampleWebApp.htm</action>
+          <type>submit</type>
+        </AttributeMatchPath>
+      </InputElement>
+      <InputElement name="reset button">
+        <AttributeMatchPath>
+          <action>SampleWebApp.htm</action>
+          <type>reset</type>
+        </AttributeMatchPath>
+      </InputElement>
+    </Controls>
+  </DataDrivenAdapterBindings>
+  <displayGroup>MainPanel</displayGroup>
+  <optimumSize x="800" y="600" />
+  <minimumSize x="640" y="20" />
+</initstring>

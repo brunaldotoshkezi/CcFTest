@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ServiceReference>
+	<ProxyGenerationParameters
+		ServiceReferenceUri="http://ccfiis/Microsoft.Ccf.Csr.WebServices.ContactCenterAif/Workflow.svc"
+		Name="WorkflowWS"
+		NotifyPropertyChange="False"
+		UseObservableCollection="False">
+	</ProxyGenerationParameters>
+	<EndPoints>
+		<EndPoint
+			Address="http://ccfiis/Microsoft.Ccf.Csr.WebServices.ContactCenterAif/Workflow.svc"
+			BindingConfiguration="BasicHttpBinding_WorkflowWs"
+			Contract="Microsoft.Ccf.Samples.WfWorkflowControl.WorkflowWS.WorkflowWs"
+			>
+		</EndPoint>
+	</EndPoints>
+</ServiceReference>

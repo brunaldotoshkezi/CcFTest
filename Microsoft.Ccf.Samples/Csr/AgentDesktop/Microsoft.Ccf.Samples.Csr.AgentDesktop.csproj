@@ -1,0 +1,383 @@
+﻿<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <ProjectType>Local</ProjectType>
+    <ProductVersion>8.0.50727</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{14BD8551-8C3A-4129-8815-99757E7BC4DA}</ProjectGuid>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ApplicationIcon>AgentDesktop.ico</ApplicationIcon>
+    <AssemblyKeyContainerName>
+    </AssemblyKeyContainerName>
+    <AssemblyName>AgentDesktop</AssemblyName>
+    <AssemblyOriginatorKeyFile>Microsoft.Ccf.PublicTestScripts.snk</AssemblyOriginatorKeyFile>
+    <DefaultClientScript>JScript</DefaultClientScript>
+    <DefaultHTMLPageLayout>Grid</DefaultHTMLPageLayout>
+    <DefaultTargetSchema>IE50</DefaultTargetSchema>
+    <DelaySign>false</DelaySign>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>Microsoft.Ccf.Samples.Csr.AgentDesktop</RootNamespace>
+    <RunPostBuildEvent>OnBuildSuccess</RunPostBuildEvent>
+    <StartupObject>
+    </StartupObject>
+    <WebReference_EnableProperties>true</WebReference_EnableProperties>
+    <WebReference_EnableSQLTypes>false</WebReference_EnableSQLTypes>
+    <WebReference_EnableLegacyEventingModel>true</WebReference_EnableLegacyEventingModel>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
+    <SccProjectName>%24/CcfEverest/Public/Microsoft.Ccf.Samples.Csr.AgentDesktop/Microsoft.Ccf.Samples/Csr/AgentDesktop</SccProjectName>
+    <SccLocalPath>.</SccLocalPath>
+    <SccAuxPath>http://ccflab-8:8080</SccAuxPath>
+    <SccProvider>{4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}</SccProvider>
+    <SignAssembly>true</SignAssembly>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <OutputPath>bin\Debug\</OutputPath>
+    <AllowUnsafeBlocks>false</AllowUnsafeBlocks>
+    <BaseAddress>285212672</BaseAddress>
+    <CheckForOverflowUnderflow>false</CheckForOverflowUnderflow>
+    <ConfigurationOverrideFile>
+    </ConfigurationOverrideFile>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <DocumentationFile>
+    </DocumentationFile>
+    <DebugSymbols>true</DebugSymbols>
+    <FileAlignment>4096</FileAlignment>
+    <NoStdLib>false</NoStdLib>
+    <NoWarn>
+    </NoWarn>
+    <Optimize>false</Optimize>
+    <RegisterForComInterop>false</RegisterForComInterop>
+    <RemoveIntegerChecks>false</RemoveIntegerChecks>
+    <TreatWarningsAsErrors>false</TreatWarningsAsErrors>
+    <WarningLevel>4</WarningLevel>
+    <DebugType>full</DebugType>
+    <ErrorReport>prompt</ErrorReport>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <OutputPath>bin\Release\</OutputPath>
+    <AllowUnsafeBlocks>false</AllowUnsafeBlocks>
+    <BaseAddress>285212672</BaseAddress>
+    <CheckForOverflowUnderflow>false</CheckForOverflowUnderflow>
+    <ConfigurationOverrideFile>
+    </ConfigurationOverrideFile>
+    <DefineConstants>TRACE</DefineConstants>
+    <DocumentationFile>AgentDesktop.xml</DocumentationFile>
+    <DebugSymbols>false</DebugSymbols>
+    <FileAlignment>4096</FileAlignment>
+    <NoStdLib>false</NoStdLib>
+    <NoWarn>
+    </NoWarn>
+    <Optimize>true</Optimize>
+    <RegisterForComInterop>false</RegisterForComInterop>
+    <RemoveIntegerChecks>false</RemoveIntegerChecks>
+    <TreatWarningsAsErrors>false</TreatWarningsAsErrors>
+    <WarningLevel>4</WarningLevel>
+    <DebugType>pdbonly</DebugType>
+    <ErrorReport>prompt</ErrorReport>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'DebugUnitTests|AnyCPU' ">
+    <OutputPath>bin\DebugUnitTests\</OutputPath>
+    <AllowUnsafeBlocks>false</AllowUnsafeBlocks>
+    <BaseAddress>285212672</BaseAddress>
+    <CheckForOverflowUnderflow>false</CheckForOverflowUnderflow>
+    <ConfigurationOverrideFile>
+    </ConfigurationOverrideFile>
+    <DefineConstants>DEBUG;TRACE;UNIT_TESTS</DefineConstants>
+    <DocumentationFile>AgentDesktop.xml</DocumentationFile>
+    <DebugSymbols>true</DebugSymbols>
+    <FileAlignment>4096</FileAlignment>
+    <NoStdLib>false</NoStdLib>
+    <NoWarn>
+    </NoWarn>
+    <Optimize>false</Optimize>
+    <RegisterForComInterop>false</RegisterForComInterop>
+    <RemoveIntegerChecks>false</RemoveIntegerChecks>
+    <TreatWarningsAsErrors>false</TreatWarningsAsErrors>
+    <WarningLevel>4</WarningLevel>
+    <DebugType>full</DebugType>
+    <ErrorReport>prompt</ErrorReport>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Interop.CtiLayerTapi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=4f00c1aa5320a4d9">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\Framework\Interop.CtiLayerTapi.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Ccf.Common, Version=3.0.0.0, Culture=neutral, PublicKeyToken=4f00c1aa5320a4d9, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\Framework\Microsoft.Ccf.Common.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Ccf.Common.Listeners, Version=3.0.0.0, Culture=neutral, PublicKeyToken=4f00c1aa5320a4d9, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\Framework\Microsoft.Ccf.Common.Listeners.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Ccf.Common.Logging, Version=3.0.0.0, Culture=neutral, PublicKeyToken=4f00c1aa5320a4d9, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\Framework\Microsoft.Ccf.Common.Logging.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Ccf.Common.Logging.Providers, Version=3.0.0.0, Culture=neutral, PublicKeyToken=4f00c1aa5320a4d9, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\Framework\Microsoft.Ccf.Common.Logging.Providers.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Ccf.Common.Providers, Version=3.0.0.0, Culture=neutral, PublicKeyToken=4f00c1aa5320a4d9, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\Framework\Microsoft.Ccf.Common.Providers.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Ccf.Csr.AppLauncherExe, Version=3.0.0.0, Culture=neutral, PublicKeyToken=4f00c1aa5320a4d9, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\Framework\Microsoft.Ccf.Csr.AppLauncherExe.exe</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Ccf.Csr.Core">
+      <Name>Microsoft.Ccf.Csr.Core</Name>
+      <HintPath>..\..\..\..\Framework\Microsoft.Ccf.Csr.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Ccf.Csr.Cti.Adapter.Tapi, Version=3.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\Microsoft.Ccf\Csr\Cti\Adapter\Tapi\bin\Debug\Microsoft.Ccf.Csr.Cti.Adapter.Tapi.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Ccf.Csr.Cti.Providers, Version=3.0.0.0, Culture=neutral, PublicKeyToken=4f00c1aa5320a4d9, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\Framework\Microsoft.Ccf.Csr.Cti.Providers.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Ccf.Csr.Rtc">
+      <Name>Microsoft.Ccf.Csr.Rtc</Name>
+      <HintPath>..\..\..\..\Framework\Microsoft.Ccf.Csr.Rtc.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Ccf.Csr.Win32Api">
+      <Name>Microsoft.Ccf.Csr.Win32Api</Name>
+      <HintPath>..\..\..\..\Framework\Microsoft.Ccf.Csr.Win32Api.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Ccf.DataAccessLayer, Version=0.0.0.0, Culture=neutral, PublicKeyToken=4f00c1aa5320a4d9, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\Framework\Microsoft.Ccf.DataAccessLayer.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Ccf.HostedApplicationToolkit.Activity, Version=1.0.0.0, Culture=neutral, PublicKeyToken=4f00c1aa5320a4d9, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\Framework\Microsoft.Ccf.HostedApplicationToolkit.Activity.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Ccf.Multichannel, Version=1.0.0.0, Culture=neutral, PublicKeyToken=4f00c1aa5320a4d9, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\Framework\Microsoft.Ccf.Multichannel.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Ccf.MultiChannelAdapters.Common, Version=3.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\Framework\Microsoft.Ccf.MultiChannelAdapters.Common.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Practices.CompositeUI, Version=1.0.51205.0, Culture=neutral, PublicKeyToken=4f00c1aa5320a4d9, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\Framework\Microsoft.Practices.CompositeUI.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Practices.CompositeUI.WinForms, Version=1.0.51205.0, Culture=neutral, PublicKeyToken=4f00c1aa5320a4d9, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\Framework\Microsoft.Practices.CompositeUI.WinForms.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Practices.ObjectBuilder, Version=1.0.51205.0, Culture=neutral, PublicKeyToken=4f00c1aa5320a4d9, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\Framework\Microsoft.Practices.ObjectBuilder.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Vsa">
+      <Name>Microsoft.Vsa</Name>
+    </Reference>
+    <Reference Include="RTCCORELib, Version=1.2.0.0, Culture=neutral, PublicKeyToken=4f00c1aa5320a4d9">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\Framework\RTCCORELib.dll</HintPath>
+    </Reference>
+    <Reference Include="System">
+      <Name>System</Name>
+    </Reference>
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Data">
+      <Name>System.Data</Name>
+    </Reference>
+    <Reference Include="System.DirectoryServices">
+      <Name>System.DirectoryServices</Name>
+    </Reference>
+    <Reference Include="System.Drawing">
+      <Name>System.Drawing</Name>
+    </Reference>
+    <Reference Include="System.EnterpriseServices" />
+    <Reference Include="System.Runtime.Remoting">
+      <Name>System.Runtime.Remoting</Name>
+    </Reference>
+    <Reference Include="System.Runtime.Serialization, Version=3.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL" />
+    <Reference Include="System.ServiceModel, Version=3.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL" />
+    <Reference Include="System.Web">
+      <Name>system.web</Name>
+    </Reference>
+    <Reference Include="System.Web.Services">
+      <Name>System.Web.Services</Name>
+    </Reference>
+    <Reference Include="System.Windows.Forms">
+      <Name>System.Windows.Forms</Name>
+    </Reference>
+    <Reference Include="System.Xml">
+      <Name>System.XML</Name>
+    </Reference>
+    <ProjectReference Include="..\..\..\Microsoft.Ccf.Adapter\Microsoft.Ccf.Adapter.csproj">
+      <Project>{6CD0AE2F-43A2-49A9-9E34-60018736254A}</Project>
+      <Name>Microsoft.Ccf.Adapter</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\HostedControlInterfaces\Microsoft.Ccf.Samples.HostedControlInterfaces.csproj">
+      <Project>{2AFAEE48-72E8-4B22-85D1-B4B9B15E9575}</Project>
+      <Name>Microsoft.Ccf.Samples.HostedControlInterfaces</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\RtcLib\Microsoft.Ccf.Samples.Csr.RtcLib.csproj">
+      <Project>{DAA594A1-3B4D-4C61-A07A-E5153ED6766F}</Project>
+      <Name>Microsoft.Ccf.Samples.Csr.RtcLib</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Signer\Microsoft.Ccf.Samples.Csr.Signer.csproj">
+      <Project>{4B9805D1-5822-4EF4-A199-AE11F434B1C1}</Project>
+      <Name>Microsoft.Ccf.Samples.Csr.Signer</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AddressBookDlg.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AgentDesktopSession.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="AgentDesktopSessions.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="AssemblyInfo.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="CCFAbout.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Desktop.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DesktopToolbar.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GetNumber.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ImageButton.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Localize.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="LoginForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="LoginForm.Designer.cs">
+      <DependentUpon>LoginForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="LookupDlg.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Main.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="PhoneMenu.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+      <DependentUpon>Settings.settings</DependentUpon>
+    </Compile>
+    <Compile Include="SelectCallDlg.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Service References\AddressBook.cs" />
+    <Compile Include="Service References\AgentStats.cs" />
+    <Compile Include="Service References\ContactCenterStatistics.cs" />
+    <Compile Include="Service References\Lookup.cs" />
+    <Compile Include="Service References\NonHostedApplications.cs" />
+    <Compile Include="Service References\Options.cs" />
+    <Compile Include="Service References\SkillsRouting.cs" />
+    <Compile Include="SplashScreen.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SplashScreen.Designer.cs">
+      <DependentUpon>SplashScreen.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Strings.Designer.cs">
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Strings.resx</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="AddressBookDlg.resx">
+      <DependentUpon>AddressBookDlg.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AgentDesktop.ico" />
+    <EmbeddedResource Include="CCFAbout.resx">
+      <DependentUpon>CCFAbout.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Desktop.resx">
+      <DependentUpon>Desktop.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DesktopToolbar.resx">
+      <DependentUpon>DesktopToolbar.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GetNumber.resx">
+      <DependentUpon>GetNumber.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Icon.ico" />
+    <EmbeddedResource Include="ImageButton.resx">
+      <DependentUpon>ImageButton.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="LoginForm.resx">
+      <DependentUpon>LoginForm.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="LookupDlg.resx">
+      <DependentUpon>LookupDlg.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PhoneMenu.resx">
+      <DependentUpon>PhoneMenu.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SelectCallDlg.resx">
+      <DependentUpon>SelectCallDlg.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SplashScreen.resx">
+      <DependentUpon>SplashScreen.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Strings.resx">
+      <SubType>Designer</SubType>
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Strings.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <Content Include="agent.ico" />
+    <None Include="app.config" />
+    <Content Include="app.config.local" />
+    <Content Include="Resources\ccf_splash_screen_2008.jpg" />
+    <None Include="Microsoft.Ccf.PublicTestScripts.snk" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="Service References\AddressBook.map" />
+    <None Include="Service References\AgentStats.map" />
+    <None Include="Service References\ContactCenterStatistics.map" />
+    <None Include="Service References\Lookup.map" />
+    <None Include="Service References\NonHostedApplications.map" />
+    <None Include="Service References\Options.map" />
+    <None Include="Service References\SkillsRouting.map" />
+    <WebReferences Include="Web References\" />
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <PropertyGroup>
+    <PreBuildEvent>
+    </PreBuildEvent>
+    <PostBuildEvent>
+    </PostBuildEvent>
+  </PropertyGroup>
+</Project>

@@ -1,0 +1,471 @@
+Microsoft Visual Studio Solution File, Format Version 9.00
+# Visual Studio 2005
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Microsoft.Ccf.Samples.CCFDebugger", "Microsoft.Ccf.Samples\QuickStarts\CCFDebugger\Microsoft.Ccf.Samples.CCFDebugger.csproj", "{E8DD963E-5F6F-41FD-8B4A-7583C52246A2}"
+	ProjectSection(WebsiteProperties) = preProject
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.Debug = "False"
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Microsoft.Ccf.Samples.DemoWebApplication", "Microsoft.Ccf.Samples\QuickStarts\CcfDemoWebApps\Microsoft.Ccf.Samples.DemoWebApplication.csproj", "{F43098E2-3D27-4294-B87B-E544C20FE943}"
+	ProjectSection(WebsiteProperties) = preProject
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.Debug = "False"
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Microsoft.Ccf.Samples.Citrix.ApplicationAdapter", "Microsoft.Ccf.Samples\QuickStarts\CitrixIntegration\ApplicationAdapter\Microsoft.Ccf.Samples.Citrix.ApplicationAdapter.csproj", "{A8C9F163-7FA3-4224-BA27-915C4CDF0FA0}"
+	ProjectSection(WebsiteProperties) = preProject
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.Debug = "False"
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Microsoft.Ccf.Samples.Citrix.WinFormHelloWorld", "Microsoft.Ccf.Samples\QuickStarts\CitrixIntegration\WinFormHelloWorld\Microsoft.Ccf.Samples.Citrix.WinFormHelloWorld.csproj", "{795CCB8D-1240-4AD2-BA93-F56A9FE28D01}"
+	ProjectSection(WebsiteProperties) = preProject
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.Debug = "False"
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Microsoft.Ccf.Samples.Citrix.HelloWorldProxy", "Microsoft.Ccf.Samples\QuickStarts\CitrixIntegration\HelloWorldProxy\Microsoft.Ccf.Samples.Citrix.HelloWorldProxy.csproj", "{AC169CB2-7933-4648-8B57-5AE93FE56C91}"
+	ProjectSection(WebsiteProperties) = preProject
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.Debug = "False"
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Microsoft.Ccf.Samples.Citrix.HelloWorldStub", "Microsoft.Ccf.Samples\QuickStarts\CitrixIntegration\HelloWorldStub\Microsoft.Ccf.Samples.Citrix.HelloWorldStub.csproj", "{099CB13A-DF80-41F6-AB47-629F7402F52C}"
+	ProjectSection(WebsiteProperties) = preProject
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.Debug = "False"
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Microsoft.Ccf.Samples.Citrix.StandAloneProxy", "Microsoft.Ccf.Samples\QuickStarts\CitrixIntegration\StandAloneProxy\Microsoft.Ccf.Samples.Citrix.StandAloneProxy.csproj", "{B18D2DB6-36F7-43D6-B4D1-345055CC93EF}"
+	ProjectSection(WebsiteProperties) = preProject
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.Debug = "False"
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Microsoft.Ccf.Samples.Citrix.StandAloneStub", "Microsoft.Ccf.Samples\QuickStarts\CitrixIntegration\StandAloneStub\Microsoft.Ccf.Samples.Citrix.StandAloneStub.csproj", "{706DF64D-9BCD-4324-8963-0600CEA4466F}"
+	ProjectSection(WebsiteProperties) = preProject
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.Debug = "False"
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Microsoft.Ccf.Samples.StandAloneTestApp", "Microsoft.Ccf.Samples\QuickStarts\StandAloneTestApp\Microsoft.Ccf.Samples.StandAloneTestApp.csproj", "{2E6E8B90-242E-4946-B879-8AFBC330764C}"
+	ProjectSection(WebsiteProperties) = preProject
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.Debug = "False"
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Microsoft.Ccf.Samples.HostedControlInterfaces", "Microsoft.Ccf.Samples\Csr\HostedControlInterfaces\Microsoft.Ccf.Samples.HostedControlInterfaces.csproj", "{2AFAEE48-72E8-4B22-85D1-B4B9B15E9575}"
+	ProjectSection(WebsiteProperties) = preProject
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.Debug = "False"
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Microsoft.Ccf.QuickStarts.QsWebApplicationAdapter", "Microsoft.Ccf.Samples\QuickStarts\QSWebApplicationAdapter\Microsoft.Ccf.QuickStarts.QsWebApplicationAdapter.csproj", "{525A4AED-D0AD-4E21-8C38-E7F92D939659}"
+	ProjectSection(WebsiteProperties) = preProject
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.Debug = "False"
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Microsoft.Ccf.QuickStarts.QsExternalApplicationAdapter", "Microsoft.Ccf.Samples\QuickStarts\QsExternalApplicationAdapter\Microsoft.Ccf.QuickStarts.QsExternalApplicationAdapter.csproj", "{2405004E-30C4-4FF7-9214-A83D1FBEE304}"
+	ProjectSection(WebsiteProperties) = preProject
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.Debug = "False"
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Microsoft.Ccf.QuickStarts.QsHostedControl", "Microsoft.Ccf.Samples\QuickStarts\QsHostedControl\Microsoft.Ccf.QuickStarts.QsHostedControl.csproj", "{1491F253-16BC-498F-8BA4-1CCD2355D722}"
+	ProjectSection(WebsiteProperties) = preProject
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.Debug = "False"
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Microsoft.Ccf.QuickStarts.QsWebApplication", "Microsoft.Ccf.Samples\QuickStarts\QsWebApplication\Microsoft.Ccf.QuickStarts.QsWebApplication.csproj", "{21D64CAF-6952-4792-9A39-3E5E6EFD1CA8}"
+	ProjectSection(WebsiteProperties) = preProject
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.Debug = "False"
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Microsoft.Ccf.Samples.WebchatClient", "Microsoft.Ccf.Samples\QuickStarts\WebchatClient\Microsoft.Ccf.Samples.WebchatClient.csproj", "{417191C7-825A-46CD-88EB-4DE4992E68BA}"
+	ProjectSection(WebsiteProperties) = preProject
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.Debug = "False"
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Microsoft.Ccf.Adapter", "Microsoft.Ccf.Adapter\Microsoft.Ccf.Adapter.csproj", "{6CD0AE2F-43A2-49A9-9E34-60018736254A}"
+	ProjectSection(WebsiteProperties) = preProject
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.Debug = "False"
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Microsoft.Ccf.QuickStarts.QsExternalApp", "Microsoft.Ccf.Samples\QuickStarts\QsExternalApp\Microsoft.Ccf.QuickStarts.QsExternalApp.csproj", "{83D95645-B5C0-47F8-A606-DD0AA77BA085}"
+	ProjectSection(WebsiteProperties) = preProject
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.Debug = "False"
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Microsoft.Ccf.QuickStarts.QsAutomationProject", "Microsoft.Ccf.Samples\QuickStarts\QsAutomationProject\Microsoft.Ccf.QuickStarts.QsAutomationProject.csproj", "{E70C9DE9-00E3-4E17-B49D-C5F76B006113}"
+	ProjectSection(WebsiteProperties) = preProject
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.Debug = "False"
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Microsoft.Ccf.QuickStarts.QsDataDrivenAdapterExt", "Microsoft.Ccf.Samples\QuickStarts\QsDataDrivenAdapterExt\Microsoft.Ccf.QuickStarts.QsDataDrivenAdapterExt.csproj", "{8295D8FA-9941-4B94-AEF6-1E6D7E05DB62}"
+	ProjectSection(WebsiteProperties) = preProject
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.Debug = "False"
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Microsoft.Ccf.QuickStarts.QsHatHostedControl", "Microsoft.Ccf.Samples\QuickStarts\QsHatHostedControl\Microsoft.Ccf.QuickStarts.QsHatHostedControl.csproj", "{D978C757-A05B-4AE1-8B05-480AF48CFC69}"
+	ProjectSection(WebsiteProperties) = preProject
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.Debug = "False"
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Microsoft.Ccf.Samples.MultichannelApplications", "Microsoft.Ccf.Samples\QuickStarts\MultichannelApplications\Microsoft.Ccf.Samples.MultichannelApplications.csproj", "{DF8122CF-1CC0-48AF-BCD1-1FE9D53DD8BB}"
+	ProjectSection(WebsiteProperties) = preProject
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.Debug = "False"
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "CCF_HAT", "CCF_HAT", "{8881456F-5658-4153-90A8-8AE4E2E841B0}"
+	ProjectSection(WebsiteProperties) = preProject
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.Debug = "False"
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Citrix", "Citrix", "{048589E1-B423-45DD-80AC-58BD3D8958B7}"
+	ProjectSection(WebsiteProperties) = preProject
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.Debug = "False"
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "CCF_Legacy", "CCF_Legacy", "{515A72CF-6E75-44FD-9B4C-8B315E5AAE07}"
+	ProjectSection(WebsiteProperties) = preProject
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.Debug = "False"
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "CCF_Support", "CCF_Support", "{F4020AEF-E833-424F-AC52-CEB97882AB10}"
+	ProjectSection(WebsiteProperties) = preProject
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.Debug = "False"
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Multichannel_Server", "Multichannel_Server", "{DC462DB9-D394-4A9C-9B2B-D4DF0A70DE7C}"
+	ProjectSection(WebsiteProperties) = preProject
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.Debug = "False"
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Microsoft.Ccf.MultichannelAdapters.SampleAdapter", "Microsoft.Ccf.Samples\QuickStarts\MultiChannelAdapters\SampleAdapter\Microsoft.Ccf.MultichannelAdapters.SampleAdapter.csproj", "{AF15A90E-FC0E-49F0-BDDF-46B0EDC6B38C}"
+	ProjectSection(WebsiteProperties) = preProject
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.Debug = "False"
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 23
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = http://ccflab-8:8080/
+		SccLocalPath0 = .
+		SccProjectUniqueName1 = Microsoft.Ccf.Samples\\QuickStarts\\CCFDebugger\\Microsoft.Ccf.Samples.CCFDebugger.csproj
+		SccProjectTopLevelParentUniqueName1 = QuickStarts.sln
+		SccProjectName1 = Microsoft.Ccf.Samples/QuickStarts/CCFDebugger
+		SccLocalPath1 = Microsoft.Ccf.Samples\\QuickStarts\\CCFDebugger
+		SccProjectUniqueName2 = Microsoft.Ccf.Samples\\QuickStarts\\CcfDemoWebApps\\Microsoft.Ccf.Samples.DemoWebApplication.csproj
+		SccProjectTopLevelParentUniqueName2 = QuickStarts.sln
+		SccProjectName2 = Microsoft.Ccf.Samples/QuickStarts/CcfDemoWebApps
+		SccLocalPath2 = Microsoft.Ccf.Samples\\QuickStarts\\CcfDemoWebApps
+		SccProjectUniqueName3 = Microsoft.Ccf.Samples\\QuickStarts\\CitrixIntegration\\ApplicationAdapter\\Microsoft.Ccf.Samples.Citrix.ApplicationAdapter.csproj
+		SccProjectTopLevelParentUniqueName3 = QuickStarts.sln
+		SccProjectName3 = Microsoft.Ccf.Samples/QuickStarts/CitrixIntegration/ApplicationAdapter
+		SccLocalPath3 = Microsoft.Ccf.Samples\\QuickStarts\\CitrixIntegration\\ApplicationAdapter
+		SccProjectUniqueName4 = Microsoft.Ccf.Samples\\QuickStarts\\CitrixIntegration\\WinFormHelloWorld\\Microsoft.Ccf.Samples.Citrix.WinFormHelloWorld.csproj
+		SccProjectTopLevelParentUniqueName4 = QuickStarts.sln
+		SccProjectName4 = Microsoft.Ccf.Samples/QuickStarts/CitrixIntegration/WinFormHelloWorld
+		SccLocalPath4 = Microsoft.Ccf.Samples\\QuickStarts\\CitrixIntegration\\WinFormHelloWorld
+		SccProjectUniqueName5 = Microsoft.Ccf.Samples\\QuickStarts\\CitrixIntegration\\HelloWorldProxy\\Microsoft.Ccf.Samples.Citrix.HelloWorldProxy.csproj
+		SccProjectTopLevelParentUniqueName5 = QuickStarts.sln
+		SccProjectName5 = Microsoft.Ccf.Samples/QuickStarts/CitrixIntegration/HelloWorldProxy
+		SccLocalPath5 = Microsoft.Ccf.Samples\\QuickStarts\\CitrixIntegration\\HelloWorldProxy
+		SccProjectUniqueName6 = Microsoft.Ccf.Samples\\QuickStarts\\CitrixIntegration\\HelloWorldStub\\Microsoft.Ccf.Samples.Citrix.HelloWorldStub.csproj
+		SccProjectTopLevelParentUniqueName6 = QuickStarts.sln
+		SccProjectName6 = Microsoft.Ccf.Samples/QuickStarts/CitrixIntegration/HelloWorldStub
+		SccLocalPath6 = Microsoft.Ccf.Samples\\QuickStarts\\CitrixIntegration\\HelloWorldStub
+		SccProjectUniqueName7 = Microsoft.Ccf.Samples\\QuickStarts\\CitrixIntegration\\StandAloneProxy\\Microsoft.Ccf.Samples.Citrix.StandAloneProxy.csproj
+		SccProjectTopLevelParentUniqueName7 = QuickStarts.sln
+		SccProjectName7 = Microsoft.Ccf.Samples/QuickStarts/CitrixIntegration/StandAloneProxy
+		SccLocalPath7 = Microsoft.Ccf.Samples\\QuickStarts\\CitrixIntegration\\StandAloneProxy
+		SccProjectUniqueName8 = Microsoft.Ccf.Samples\\QuickStarts\\CitrixIntegration\\StandAloneStub\\Microsoft.Ccf.Samples.Citrix.StandAloneStub.csproj
+		SccProjectTopLevelParentUniqueName8 = QuickStarts.sln
+		SccProjectName8 = Microsoft.Ccf.Samples/QuickStarts/CitrixIntegration/StandAloneStub
+		SccLocalPath8 = Microsoft.Ccf.Samples\\QuickStarts\\CitrixIntegration\\StandAloneStub
+		SccProjectUniqueName9 = Microsoft.Ccf.Samples\\QuickStarts\\StandAloneTestApp\\Microsoft.Ccf.Samples.StandAloneTestApp.csproj
+		SccProjectTopLevelParentUniqueName9 = QuickStarts.sln
+		SccProjectName9 = Microsoft.Ccf.Samples/QuickStarts/StandAloneTestApp
+		SccLocalPath9 = Microsoft.Ccf.Samples\\QuickStarts\\StandAloneTestApp
+		SccProjectUniqueName10 = Microsoft.Ccf.Samples\\Csr\\HostedControlInterfaces\\Microsoft.Ccf.Samples.HostedControlInterfaces.csproj
+		SccProjectTopLevelParentUniqueName10 = QuickStarts.sln
+		SccProjectName10 = Microsoft.Ccf.Samples/Csr/HostedControlInterfaces
+		SccLocalPath10 = Microsoft.Ccf.Samples\\Csr\\HostedControlInterfaces
+		SccProjectUniqueName11 = Microsoft.Ccf.Samples\\QuickStarts\\QSWebApplicationAdapter\\Microsoft.Ccf.QuickStarts.QsWebApplicationAdapter.csproj
+		SccProjectTopLevelParentUniqueName11 = QuickStarts.sln
+		SccProjectName11 = Microsoft.Ccf.Samples/QuickStarts/QSWebApplicationAdapter
+		SccLocalPath11 = Microsoft.Ccf.Samples\\QuickStarts\\QSWebApplicationAdapter
+		SccProjectUniqueName12 = Microsoft.Ccf.Samples\\QuickStarts\\QsExternalApplicationAdapter\\Microsoft.Ccf.QuickStarts.QsExternalApplicationAdapter.csproj
+		SccProjectTopLevelParentUniqueName12 = QuickStarts.sln
+		SccProjectName12 = Microsoft.Ccf.Samples/QuickStarts/QsExternalApplicationAdapter
+		SccLocalPath12 = Microsoft.Ccf.Samples\\QuickStarts\\QsExternalApplicationAdapter
+		SccProjectUniqueName13 = Microsoft.Ccf.Samples\\QuickStarts\\QsHostedControl\\Microsoft.Ccf.QuickStarts.QsHostedControl.csproj
+		SccProjectTopLevelParentUniqueName13 = QuickStarts.sln
+		SccProjectName13 = Microsoft.Ccf.Samples/QuickStarts/QsHostedControl
+		SccLocalPath13 = Microsoft.Ccf.Samples\\QuickStarts\\QsHostedControl
+		SccProjectUniqueName14 = Microsoft.Ccf.Samples\\QuickStarts\\QsWebApplication\\Microsoft.Ccf.QuickStarts.QsWebApplication.csproj
+		SccProjectTopLevelParentUniqueName14 = QuickStarts.sln
+		SccProjectName14 = Microsoft.Ccf.Samples/QuickStarts/QsWebApplication
+		SccLocalPath14 = Microsoft.Ccf.Samples\\QuickStarts\\QsWebApplication
+		SccProjectUniqueName15 = Microsoft.Ccf.Adapter\\Microsoft.Ccf.Adapter.csproj
+		SccProjectTopLevelParentUniqueName15 = QuickStarts.sln
+		SccProjectName15 = Microsoft.Ccf.Adapter
+		SccLocalPath15 = Microsoft.Ccf.Adapter
+		SccProjectUniqueName16 = Microsoft.Ccf.Samples\\QuickStarts\\WebchatClient\\Microsoft.Ccf.Samples.WebchatClient.csproj
+		SccProjectTopLevelParentUniqueName16 = QuickStarts.sln
+		SccProjectName16 = Microsoft.Ccf.Samples/QuickStarts/WebchatClient
+		SccLocalPath16 = Microsoft.Ccf.Samples\\QuickStarts\\WebchatClient
+		SccProjectUniqueName17 = Microsoft.Ccf.Samples\\QuickStarts\\QsExternalApp\\Microsoft.Ccf.QuickStarts.QsExternalApp.csproj
+		SccProjectTopLevelParentUniqueName17 = QuickStarts.sln
+		SccProjectName17 = Microsoft.Ccf.Samples/QuickStarts/QsExternalApp
+		SccLocalPath17 = Microsoft.Ccf.Samples\\QuickStarts\\QsExternalApp
+		SccProjectUniqueName18 = Microsoft.Ccf.Samples\\QuickStarts\\QsAutomationProject\\Microsoft.Ccf.QuickStarts.QsAutomationProject.csproj
+		SccProjectTopLevelParentUniqueName18 = QuickStarts.sln
+		SccProjectName18 = Microsoft.Ccf.Samples/QuickStarts/QsAutomationProject
+		SccLocalPath18 = Microsoft.Ccf.Samples\\QuickStarts\\QsAutomationProject
+		SccProjectUniqueName19 = Microsoft.Ccf.Samples\\QuickStarts\\QsDataDrivenAdapterExt\\Microsoft.Ccf.QuickStarts.QsDataDrivenAdapterExt.csproj
+		SccProjectTopLevelParentUniqueName19 = QuickStarts.sln
+		SccProjectName19 = Microsoft.Ccf.Samples/QuickStarts/QsDataDrivenAdapterExt
+		SccLocalPath19 = Microsoft.Ccf.Samples\\QuickStarts\\QsDataDrivenAdapterExt
+		SccProjectUniqueName20 = Microsoft.Ccf.Samples\\QuickStarts\\QsHatHostedControl\\Microsoft.Ccf.QuickStarts.QsHatHostedControl.csproj
+		SccProjectTopLevelParentUniqueName20 = QuickStarts.sln
+		SccProjectName20 = Microsoft.Ccf.Samples/QuickStarts/QsHatHostedControl
+		SccLocalPath20 = Microsoft.Ccf.Samples\\QuickStarts\\QsHatHostedControl
+		SccProjectUniqueName21 = Microsoft.Ccf.Samples\\QuickStarts\\MultichannelApplications\\Microsoft.Ccf.Samples.MultichannelApplications.csproj
+		SccProjectTopLevelParentUniqueName21 = QuickStarts.sln
+		SccProjectName21 = Microsoft.Ccf.Samples/QuickStarts/MultichannelApplications
+		SccLocalPath21 = Microsoft.Ccf.Samples\\QuickStarts\\MultichannelApplications
+		SccProjectUniqueName22 = Microsoft.Ccf.Samples\\QuickStarts\\MultiChannelAdapters\\SampleAdapter\\Microsoft.Ccf.MultichannelAdapters.SampleAdapter.csproj
+		SccProjectTopLevelParentUniqueName22 = QuickStarts.sln
+		SccProjectName22 = Microsoft.Ccf.Samples/QuickStarts/MultiChannelAdapters/SampleAdapter
+		SccLocalPath22 = Microsoft.Ccf.Samples\\QuickStarts\\MultiChannelAdapters\\SampleAdapter
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release 1|Any CPU = Release 1|Any CPU
+		Release|Any CPU = Release|Any CPU
+		Tests|Any CPU = Tests|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E8DD963E-5F6F-41FD-8B4A-7583C52246A2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E8DD963E-5F6F-41FD-8B4A-7583C52246A2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E8DD963E-5F6F-41FD-8B4A-7583C52246A2}.Release 1|Any CPU.ActiveCfg = Release|Any CPU
+		{E8DD963E-5F6F-41FD-8B4A-7583C52246A2}.Release 1|Any CPU.Build.0 = Release|Any CPU
+		{E8DD963E-5F6F-41FD-8B4A-7583C52246A2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E8DD963E-5F6F-41FD-8B4A-7583C52246A2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E8DD963E-5F6F-41FD-8B4A-7583C52246A2}.Tests|Any CPU.ActiveCfg = Release|Any CPU
+		{E8DD963E-5F6F-41FD-8B4A-7583C52246A2}.Tests|Any CPU.Build.0 = Release|Any CPU
+		{F43098E2-3D27-4294-B87B-E544C20FE943}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F43098E2-3D27-4294-B87B-E544C20FE943}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F43098E2-3D27-4294-B87B-E544C20FE943}.Release 1|Any CPU.ActiveCfg = Release|Any CPU
+		{F43098E2-3D27-4294-B87B-E544C20FE943}.Release 1|Any CPU.Build.0 = Release|Any CPU
+		{F43098E2-3D27-4294-B87B-E544C20FE943}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F43098E2-3D27-4294-B87B-E544C20FE943}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F43098E2-3D27-4294-B87B-E544C20FE943}.Tests|Any CPU.ActiveCfg = Release|Any CPU
+		{F43098E2-3D27-4294-B87B-E544C20FE943}.Tests|Any CPU.Build.0 = Release|Any CPU
+		{A8C9F163-7FA3-4224-BA27-915C4CDF0FA0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A8C9F163-7FA3-4224-BA27-915C4CDF0FA0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A8C9F163-7FA3-4224-BA27-915C4CDF0FA0}.Release 1|Any CPU.ActiveCfg = Release|Any CPU
+		{A8C9F163-7FA3-4224-BA27-915C4CDF0FA0}.Release 1|Any CPU.Build.0 = Release|Any CPU
+		{A8C9F163-7FA3-4224-BA27-915C4CDF0FA0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A8C9F163-7FA3-4224-BA27-915C4CDF0FA0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A8C9F163-7FA3-4224-BA27-915C4CDF0FA0}.Tests|Any CPU.ActiveCfg = Release|Any CPU
+		{A8C9F163-7FA3-4224-BA27-915C4CDF0FA0}.Tests|Any CPU.Build.0 = Release|Any CPU
+		{795CCB8D-1240-4AD2-BA93-F56A9FE28D01}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{795CCB8D-1240-4AD2-BA93-F56A9FE28D01}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{795CCB8D-1240-4AD2-BA93-F56A9FE28D01}.Release 1|Any CPU.ActiveCfg = Release|Any CPU
+		{795CCB8D-1240-4AD2-BA93-F56A9FE28D01}.Release 1|Any CPU.Build.0 = Release|Any CPU
+		{795CCB8D-1240-4AD2-BA93-F56A9FE28D01}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{795CCB8D-1240-4AD2-BA93-F56A9FE28D01}.Release|Any CPU.Build.0 = Release|Any CPU
+		{795CCB8D-1240-4AD2-BA93-F56A9FE28D01}.Tests|Any CPU.ActiveCfg = Release|Any CPU
+		{795CCB8D-1240-4AD2-BA93-F56A9FE28D01}.Tests|Any CPU.Build.0 = Release|Any CPU
+		{AC169CB2-7933-4648-8B57-5AE93FE56C91}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AC169CB2-7933-4648-8B57-5AE93FE56C91}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AC169CB2-7933-4648-8B57-5AE93FE56C91}.Release 1|Any CPU.ActiveCfg = Release|Any CPU
+		{AC169CB2-7933-4648-8B57-5AE93FE56C91}.Release 1|Any CPU.Build.0 = Release|Any CPU
+		{AC169CB2-7933-4648-8B57-5AE93FE56C91}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AC169CB2-7933-4648-8B57-5AE93FE56C91}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AC169CB2-7933-4648-8B57-5AE93FE56C91}.Tests|Any CPU.ActiveCfg = Release|Any CPU
+		{AC169CB2-7933-4648-8B57-5AE93FE56C91}.Tests|Any CPU.Build.0 = Release|Any CPU
+		{099CB13A-DF80-41F6-AB47-629F7402F52C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{099CB13A-DF80-41F6-AB47-629F7402F52C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{099CB13A-DF80-41F6-AB47-629F7402F52C}.Release 1|Any CPU.ActiveCfg = Release|Any CPU
+		{099CB13A-DF80-41F6-AB47-629F7402F52C}.Release 1|Any CPU.Build.0 = Release|Any CPU
+		{099CB13A-DF80-41F6-AB47-629F7402F52C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{099CB13A-DF80-41F6-AB47-629F7402F52C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{099CB13A-DF80-41F6-AB47-629F7402F52C}.Tests|Any CPU.ActiveCfg = Tests|Any CPU
+		{099CB13A-DF80-41F6-AB47-629F7402F52C}.Tests|Any CPU.Build.0 = Tests|Any CPU
+		{B18D2DB6-36F7-43D6-B4D1-345055CC93EF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B18D2DB6-36F7-43D6-B4D1-345055CC93EF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B18D2DB6-36F7-43D6-B4D1-345055CC93EF}.Release 1|Any CPU.ActiveCfg = Release|Any CPU
+		{B18D2DB6-36F7-43D6-B4D1-345055CC93EF}.Release 1|Any CPU.Build.0 = Release|Any CPU
+		{B18D2DB6-36F7-43D6-B4D1-345055CC93EF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B18D2DB6-36F7-43D6-B4D1-345055CC93EF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B18D2DB6-36F7-43D6-B4D1-345055CC93EF}.Tests|Any CPU.ActiveCfg = Release|Any CPU
+		{B18D2DB6-36F7-43D6-B4D1-345055CC93EF}.Tests|Any CPU.Build.0 = Release|Any CPU
+		{706DF64D-9BCD-4324-8963-0600CEA4466F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{706DF64D-9BCD-4324-8963-0600CEA4466F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{706DF64D-9BCD-4324-8963-0600CEA4466F}.Release 1|Any CPU.ActiveCfg = Release|Any CPU
+		{706DF64D-9BCD-4324-8963-0600CEA4466F}.Release 1|Any CPU.Build.0 = Release|Any CPU
+		{706DF64D-9BCD-4324-8963-0600CEA4466F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{706DF64D-9BCD-4324-8963-0600CEA4466F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{706DF64D-9BCD-4324-8963-0600CEA4466F}.Tests|Any CPU.ActiveCfg = Tests|Any CPU
+		{706DF64D-9BCD-4324-8963-0600CEA4466F}.Tests|Any CPU.Build.0 = Tests|Any CPU
+		{2E6E8B90-242E-4946-B879-8AFBC330764C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2E6E8B90-242E-4946-B879-8AFBC330764C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2E6E8B90-242E-4946-B879-8AFBC330764C}.Release 1|Any CPU.ActiveCfg = Release|Any CPU
+		{2E6E8B90-242E-4946-B879-8AFBC330764C}.Release 1|Any CPU.Build.0 = Release|Any CPU
+		{2E6E8B90-242E-4946-B879-8AFBC330764C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2E6E8B90-242E-4946-B879-8AFBC330764C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2E6E8B90-242E-4946-B879-8AFBC330764C}.Tests|Any CPU.ActiveCfg = Release|Any CPU
+		{2E6E8B90-242E-4946-B879-8AFBC330764C}.Tests|Any CPU.Build.0 = Release|Any CPU
+		{2AFAEE48-72E8-4B22-85D1-B4B9B15E9575}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2AFAEE48-72E8-4B22-85D1-B4B9B15E9575}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2AFAEE48-72E8-4B22-85D1-B4B9B15E9575}.Release 1|Any CPU.ActiveCfg = Release|Any CPU
+		{2AFAEE48-72E8-4B22-85D1-B4B9B15E9575}.Release 1|Any CPU.Build.0 = Release|Any CPU
+		{2AFAEE48-72E8-4B22-85D1-B4B9B15E9575}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2AFAEE48-72E8-4B22-85D1-B4B9B15E9575}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2AFAEE48-72E8-4B22-85D1-B4B9B15E9575}.Tests|Any CPU.ActiveCfg = Release|Any CPU
+		{2AFAEE48-72E8-4B22-85D1-B4B9B15E9575}.Tests|Any CPU.Build.0 = Release|Any CPU
+		{525A4AED-D0AD-4E21-8C38-E7F92D939659}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{525A4AED-D0AD-4E21-8C38-E7F92D939659}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{525A4AED-D0AD-4E21-8C38-E7F92D939659}.Release 1|Any CPU.ActiveCfg = Release|Any CPU
+		{525A4AED-D0AD-4E21-8C38-E7F92D939659}.Release 1|Any CPU.Build.0 = Release|Any CPU
+		{525A4AED-D0AD-4E21-8C38-E7F92D939659}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{525A4AED-D0AD-4E21-8C38-E7F92D939659}.Release|Any CPU.Build.0 = Release|Any CPU
+		{525A4AED-D0AD-4E21-8C38-E7F92D939659}.Tests|Any CPU.ActiveCfg = Release|Any CPU
+		{525A4AED-D0AD-4E21-8C38-E7F92D939659}.Tests|Any CPU.Build.0 = Release|Any CPU
+		{2405004E-30C4-4FF7-9214-A83D1FBEE304}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2405004E-30C4-4FF7-9214-A83D1FBEE304}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2405004E-30C4-4FF7-9214-A83D1FBEE304}.Release 1|Any CPU.ActiveCfg = Release|Any CPU
+		{2405004E-30C4-4FF7-9214-A83D1FBEE304}.Release 1|Any CPU.Build.0 = Release|Any CPU
+		{2405004E-30C4-4FF7-9214-A83D1FBEE304}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2405004E-30C4-4FF7-9214-A83D1FBEE304}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2405004E-30C4-4FF7-9214-A83D1FBEE304}.Tests|Any CPU.ActiveCfg = Release|Any CPU
+		{2405004E-30C4-4FF7-9214-A83D1FBEE304}.Tests|Any CPU.Build.0 = Release|Any CPU
+		{1491F253-16BC-498F-8BA4-1CCD2355D722}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1491F253-16BC-498F-8BA4-1CCD2355D722}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1491F253-16BC-498F-8BA4-1CCD2355D722}.Release 1|Any CPU.ActiveCfg = Release|Any CPU
+		{1491F253-16BC-498F-8BA4-1CCD2355D722}.Release 1|Any CPU.Build.0 = Release|Any CPU
+		{1491F253-16BC-498F-8BA4-1CCD2355D722}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1491F253-16BC-498F-8BA4-1CCD2355D722}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1491F253-16BC-498F-8BA4-1CCD2355D722}.Tests|Any CPU.ActiveCfg = Release|Any CPU
+		{1491F253-16BC-498F-8BA4-1CCD2355D722}.Tests|Any CPU.Build.0 = Release|Any CPU
+		{21D64CAF-6952-4792-9A39-3E5E6EFD1CA8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{21D64CAF-6952-4792-9A39-3E5E6EFD1CA8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{21D64CAF-6952-4792-9A39-3E5E6EFD1CA8}.Release 1|Any CPU.ActiveCfg = Release|Any CPU
+		{21D64CAF-6952-4792-9A39-3E5E6EFD1CA8}.Release 1|Any CPU.Build.0 = Release|Any CPU
+		{21D64CAF-6952-4792-9A39-3E5E6EFD1CA8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{21D64CAF-6952-4792-9A39-3E5E6EFD1CA8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{21D64CAF-6952-4792-9A39-3E5E6EFD1CA8}.Tests|Any CPU.ActiveCfg = Release|Any CPU
+		{21D64CAF-6952-4792-9A39-3E5E6EFD1CA8}.Tests|Any CPU.Build.0 = Release|Any CPU
+		{417191C7-825A-46CD-88EB-4DE4992E68BA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{417191C7-825A-46CD-88EB-4DE4992E68BA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{417191C7-825A-46CD-88EB-4DE4992E68BA}.Release 1|Any CPU.ActiveCfg = Release|Any CPU
+		{417191C7-825A-46CD-88EB-4DE4992E68BA}.Release 1|Any CPU.Build.0 = Release|Any CPU
+		{417191C7-825A-46CD-88EB-4DE4992E68BA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{417191C7-825A-46CD-88EB-4DE4992E68BA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{417191C7-825A-46CD-88EB-4DE4992E68BA}.Tests|Any CPU.ActiveCfg = Release|Any CPU
+		{417191C7-825A-46CD-88EB-4DE4992E68BA}.Tests|Any CPU.Build.0 = Release|Any CPU
+		{6CD0AE2F-43A2-49A9-9E34-60018736254A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6CD0AE2F-43A2-49A9-9E34-60018736254A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6CD0AE2F-43A2-49A9-9E34-60018736254A}.Release 1|Any CPU.ActiveCfg = Release|Any CPU
+		{6CD0AE2F-43A2-49A9-9E34-60018736254A}.Release 1|Any CPU.Build.0 = Release|Any CPU
+		{6CD0AE2F-43A2-49A9-9E34-60018736254A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6CD0AE2F-43A2-49A9-9E34-60018736254A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6CD0AE2F-43A2-49A9-9E34-60018736254A}.Tests|Any CPU.ActiveCfg = Release|Any CPU
+		{6CD0AE2F-43A2-49A9-9E34-60018736254A}.Tests|Any CPU.Build.0 = Release|Any CPU
+		{83D95645-B5C0-47F8-A606-DD0AA77BA085}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{83D95645-B5C0-47F8-A606-DD0AA77BA085}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{83D95645-B5C0-47F8-A606-DD0AA77BA085}.Release 1|Any CPU.ActiveCfg = Release|Any CPU
+		{83D95645-B5C0-47F8-A606-DD0AA77BA085}.Release 1|Any CPU.Build.0 = Release|Any CPU
+		{83D95645-B5C0-47F8-A606-DD0AA77BA085}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{83D95645-B5C0-47F8-A606-DD0AA77BA085}.Release|Any CPU.Build.0 = Release|Any CPU
+		{83D95645-B5C0-47F8-A606-DD0AA77BA085}.Tests|Any CPU.ActiveCfg = Release|Any CPU
+		{83D95645-B5C0-47F8-A606-DD0AA77BA085}.Tests|Any CPU.Build.0 = Release|Any CPU
+		{E70C9DE9-00E3-4E17-B49D-C5F76B006113}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E70C9DE9-00E3-4E17-B49D-C5F76B006113}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E70C9DE9-00E3-4E17-B49D-C5F76B006113}.Release 1|Any CPU.ActiveCfg = Release|Any CPU
+		{E70C9DE9-00E3-4E17-B49D-C5F76B006113}.Release 1|Any CPU.Build.0 = Release|Any CPU
+		{E70C9DE9-00E3-4E17-B49D-C5F76B006113}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E70C9DE9-00E3-4E17-B49D-C5F76B006113}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E70C9DE9-00E3-4E17-B49D-C5F76B006113}.Tests|Any CPU.ActiveCfg = Release|Any CPU
+		{E70C9DE9-00E3-4E17-B49D-C5F76B006113}.Tests|Any CPU.Build.0 = Release|Any CPU
+		{8295D8FA-9941-4B94-AEF6-1E6D7E05DB62}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8295D8FA-9941-4B94-AEF6-1E6D7E05DB62}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8295D8FA-9941-4B94-AEF6-1E6D7E05DB62}.Release 1|Any CPU.ActiveCfg = Release|Any CPU
+		{8295D8FA-9941-4B94-AEF6-1E6D7E05DB62}.Release 1|Any CPU.Build.0 = Release|Any CPU
+		{8295D8FA-9941-4B94-AEF6-1E6D7E05DB62}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8295D8FA-9941-4B94-AEF6-1E6D7E05DB62}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8295D8FA-9941-4B94-AEF6-1E6D7E05DB62}.Tests|Any CPU.ActiveCfg = Release|Any CPU
+		{8295D8FA-9941-4B94-AEF6-1E6D7E05DB62}.Tests|Any CPU.Build.0 = Release|Any CPU
+		{D978C757-A05B-4AE1-8B05-480AF48CFC69}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D978C757-A05B-4AE1-8B05-480AF48CFC69}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D978C757-A05B-4AE1-8B05-480AF48CFC69}.Release 1|Any CPU.ActiveCfg = Release|Any CPU
+		{D978C757-A05B-4AE1-8B05-480AF48CFC69}.Release 1|Any CPU.Build.0 = Release|Any CPU
+		{D978C757-A05B-4AE1-8B05-480AF48CFC69}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D978C757-A05B-4AE1-8B05-480AF48CFC69}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D978C757-A05B-4AE1-8B05-480AF48CFC69}.Tests|Any CPU.ActiveCfg = Release|Any CPU
+		{D978C757-A05B-4AE1-8B05-480AF48CFC69}.Tests|Any CPU.Build.0 = Release|Any CPU
+		{DF8122CF-1CC0-48AF-BCD1-1FE9D53DD8BB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DF8122CF-1CC0-48AF-BCD1-1FE9D53DD8BB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DF8122CF-1CC0-48AF-BCD1-1FE9D53DD8BB}.Release 1|Any CPU.ActiveCfg = Release|Any CPU
+		{DF8122CF-1CC0-48AF-BCD1-1FE9D53DD8BB}.Release 1|Any CPU.Build.0 = Release|Any CPU
+		{DF8122CF-1CC0-48AF-BCD1-1FE9D53DD8BB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DF8122CF-1CC0-48AF-BCD1-1FE9D53DD8BB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DF8122CF-1CC0-48AF-BCD1-1FE9D53DD8BB}.Tests|Any CPU.ActiveCfg = Release|Any CPU
+		{DF8122CF-1CC0-48AF-BCD1-1FE9D53DD8BB}.Tests|Any CPU.Build.0 = Release|Any CPU
+		{AF15A90E-FC0E-49F0-BDDF-46B0EDC6B38C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AF15A90E-FC0E-49F0-BDDF-46B0EDC6B38C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AF15A90E-FC0E-49F0-BDDF-46B0EDC6B38C}.Release 1|Any CPU.ActiveCfg = Release|Any CPU
+		{AF15A90E-FC0E-49F0-BDDF-46B0EDC6B38C}.Release 1|Any CPU.Build.0 = Release|Any CPU
+		{AF15A90E-FC0E-49F0-BDDF-46B0EDC6B38C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AF15A90E-FC0E-49F0-BDDF-46B0EDC6B38C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AF15A90E-FC0E-49F0-BDDF-46B0EDC6B38C}.Tests|Any CPU.ActiveCfg = Release|Any CPU
+		{AF15A90E-FC0E-49F0-BDDF-46B0EDC6B38C}.Tests|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{2AFAEE48-72E8-4B22-85D1-B4B9B15E9575} = {F4020AEF-E833-424F-AC52-CEB97882AB10}
+		{6CD0AE2F-43A2-49A9-9E34-60018736254A} = {F4020AEF-E833-424F-AC52-CEB97882AB10}
+		{E8DD963E-5F6F-41FD-8B4A-7583C52246A2} = {F4020AEF-E833-424F-AC52-CEB97882AB10}
+		{2E6E8B90-242E-4946-B879-8AFBC330764C} = {515A72CF-6E75-44FD-9B4C-8B315E5AAE07}
+		{417191C7-825A-46CD-88EB-4DE4992E68BA} = {515A72CF-6E75-44FD-9B4C-8B315E5AAE07}
+		{F43098E2-3D27-4294-B87B-E544C20FE943} = {515A72CF-6E75-44FD-9B4C-8B315E5AAE07}
+		{795CCB8D-1240-4AD2-BA93-F56A9FE28D01} = {048589E1-B423-45DD-80AC-58BD3D8958B7}
+		{AC169CB2-7933-4648-8B57-5AE93FE56C91} = {048589E1-B423-45DD-80AC-58BD3D8958B7}
+		{099CB13A-DF80-41F6-AB47-629F7402F52C} = {048589E1-B423-45DD-80AC-58BD3D8958B7}
+		{B18D2DB6-36F7-43D6-B4D1-345055CC93EF} = {048589E1-B423-45DD-80AC-58BD3D8958B7}
+		{706DF64D-9BCD-4324-8963-0600CEA4466F} = {048589E1-B423-45DD-80AC-58BD3D8958B7}
+		{A8C9F163-7FA3-4224-BA27-915C4CDF0FA0} = {048589E1-B423-45DD-80AC-58BD3D8958B7}
+		{2405004E-30C4-4FF7-9214-A83D1FBEE304} = {8881456F-5658-4153-90A8-8AE4E2E841B0}
+		{1491F253-16BC-498F-8BA4-1CCD2355D722} = {8881456F-5658-4153-90A8-8AE4E2E841B0}
+		{21D64CAF-6952-4792-9A39-3E5E6EFD1CA8} = {8881456F-5658-4153-90A8-8AE4E2E841B0}
+		{83D95645-B5C0-47F8-A606-DD0AA77BA085} = {8881456F-5658-4153-90A8-8AE4E2E841B0}
+		{E70C9DE9-00E3-4E17-B49D-C5F76B006113} = {8881456F-5658-4153-90A8-8AE4E2E841B0}
+		{8295D8FA-9941-4B94-AEF6-1E6D7E05DB62} = {8881456F-5658-4153-90A8-8AE4E2E841B0}
+		{D978C757-A05B-4AE1-8B05-480AF48CFC69} = {8881456F-5658-4153-90A8-8AE4E2E841B0}
+		{525A4AED-D0AD-4E21-8C38-E7F92D939659} = {8881456F-5658-4153-90A8-8AE4E2E841B0}
+		{DF8122CF-1CC0-48AF-BCD1-1FE9D53DD8BB} = {DC462DB9-D394-4A9C-9B2B-D4DF0A70DE7C}
+		{AF15A90E-FC0E-49F0-BDDF-46B0EDC6B38C} = {DC462DB9-D394-4A9C-9B2B-D4DF0A70DE7C}
+	EndGlobalSection
+EndGlobal

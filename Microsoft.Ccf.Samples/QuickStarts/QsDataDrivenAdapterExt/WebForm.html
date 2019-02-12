@@ -1,0 +1,117 @@
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>Sample Form</title>
+</head>
+<body>
+    <form action="http://localhost">
+        <table border="1" id="table1">
+            <tr bgcolor="#CCCCFF">
+                <th>
+                    Name</th>
+                <th>
+                    Value</th>
+            </tr>
+            <tr>
+                <td>
+                    Name</td>
+                <td>
+                    <input id="text: name" type="text" size="25" />
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    Password</td>
+                <td>
+                    <input id="text: password" type="password" size="25" />
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    Hidden</td>
+                <td>
+                    <input id="text: hidden" type="hidden" />
+                </td>
+            </tr>
+            <tr id="gendertablerow">
+                <td>
+                    Gender</td>
+                <td>
+                    <input id="radio: male" type="radio" name="gender" value="male" />
+                    Male
+                    <br />
+                    <input id="radio: female" type="radio" name="gender" value="female" />
+                    Female
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    Eye color</td>
+                <td>
+                    <select id="select-multiple" multiple="multiple" name="eye color">
+                        <option>blue</option>
+                        <option>brown</option>
+                        <option selected="selected">green</option>
+                        <option>other</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    Favorite color</td>
+                <td>
+                    <select id="select-one" name="favorite color">
+                        <option>blueish</option>
+                        <option>blue</option>
+                        <option>brown</option>
+                        <option selected="selected">green</option>
+                        <option>other</option>
+                    </select>
+                </td>
+            </tr>            
+            <tr>
+                <td>
+                    Check all that apply</td>
+                <td>
+                    <input id="checkbox: over 6ft" type="checkbox" name="height" value="1" />
+                    Over 6 feet tall
+                    <br />
+                    <input id="checkbox: over 200lbs" type="checkbox" name="weight" value="1" />
+                    Over 200 pounds
+                </td>
+            </tr>
+            <tr>
+                <td colspan="2">
+                    Describe your athletic ability:<br>
+                    <textarea id="textarea" name="athletic" cols="50" rows="4"></textarea>
+                </td>
+            </tr>
+            <tr>
+                <td colspan="2" align="center">
+                    <input id="button" type="button" value="This is a Button" /></td>
+            </tr>
+            <tr>
+                <td colspan="2" align="center">
+                    <input id="file: file picker" type="file" name="html_file" accept="text/html" />
+                </td>
+            </tr>
+            <tr>
+                <td align="center">
+                    <input id="submit" type="submit" value="Submit my information">
+                </td>
+                <td align="center">
+                    <input id="reset" type="reset" value="Reset my information">
+                </td>
+            </tr>
+            <tr>
+                <td colspan="2" align="center">
+                    <input id="image button" type="image" value="This is an image button" /></td>
+            </tr>
+            <tr>
+               <td colspan="1" align="center"><BUTTON id="buttonid1" title="button title">Button1</BUTTON></td>
+               <td colspan="1" align="center"><button id="buttonid2" title="button title">Button2</button></td>
+            </tr>
+        </table>
+        <iframe src="C:\\DDAExamples\\Apps\\SampleWebApp.htm" width="400" height="300" align="left">This is an in-line frame.</iframe>
+    </form>
+</body>
+</html>

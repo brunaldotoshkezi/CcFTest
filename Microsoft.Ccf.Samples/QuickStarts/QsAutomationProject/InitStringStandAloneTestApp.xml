@@ -1,0 +1,82 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<initstring>
+ <interopAssembly>
+  <URL>C:\CCF\SourceCode\Microsoft.Ccf.Samples.Csr.AgentDesktop\Microsoft.Ccf.Samples\QuickStarts\StandAloneTestApp\bin\Debug\Microsoft.Ccf.Samples.StandAloneTestApp.exe</URL>
+  <Arguments></Arguments>
+  <WorkingDirectory>c:\</WorkingDirectory>
+  <hostInside/>
+ </interopAssembly>
+ <adapter>
+  <AutomationAdapter/>
+ </adapter>
+ <DataDrivenAdapterBindings>
+  <Type>Microsoft.Ccf.HostedApplicationToolkit.DataDrivenAdapter.WinDataDrivenAdapter, Microsoft.Ccf.HostedApplicationToolkit.DataDrivenAdapter</Type>
+   <Controls>
+	 <AccControl name="textbox_acc">
+	   <Path>
+		 <Next match="2">Text Input</Next>
+		 <Next>Text Input</Next>
+	   </Path>
+	 </AccControl>
+	 <AccControl name="button_acc">
+	   <Path>
+		 <Next>Copy Text</Next>
+		 <Next>Copy Text</Next>
+	   </Path>
+	 </AccControl>
+	 <AccControl name="copytext_tab1_acc">
+	   <Path>
+		 <Next offset="1">Radio3</Next>
+		 <Next offset="1">Application</Next>
+		 <Next match="2">Tab Page 1</Next>
+		 <Next>Tab Page 1</Next>
+		 <Next>Copy Text</Next>
+		 <Next>Copy Text</Next>
+	   </Path>
+	 </AccControl>
+	 <AccControl name="checkbox_acc">
+	   <Path>
+		 <Next>Checkbox</Next>
+		 <Next>Checkbox</Next>
+	   </Path>
+	 </AccControl>
+	 <AccControl name="radio1_acc">
+	   <Path>
+		 <Next>Radio1</Next>
+		 <Next>Radio1</Next>
+	   </Path>
+	 </AccControl>
+	 <AccControl name="radio2_acc">
+	   <Path>
+		 <Next>Radio2</Next>
+		 <Next>Radio2</Next>
+	   </Path>
+	 </AccControl>
+	 <AccControl name="radio3_acc">
+	   <Path>
+		 <Next>Radio3</Next>
+		 <Next>Radio3</Next>
+	   </Path>
+	 </AccControl>
+	 <AccControl name="tab1_acc">
+	   <Path>
+		 <Next offset="1">Radio3</Next>
+		 <Next offset="1">Application</Next>
+		 <Next>Tab Page 1</Next>
+		 <Next>Tab Page 1</Next>
+	   </Path>
+	 </AccControl>
+	 <AccControl name="tab2_acc">
+	   <Path>
+		 <Next offset="1">Radio3</Next>
+		 <Next offset="1">Application</Next>
+		 <Next>Tab Page 2</Next>
+		 <Next>Tab Page 2</Next>
+	   </Path>
+	 </AccControl>
+   </Controls>
+  </DataDrivenAdapterBindings>
+  <displayGroup>MainPanel</displayGroup>
+  <optimumSize x="800" y="600"/>
+  <minimumSize x="640" y="480"/>
+</initstring>

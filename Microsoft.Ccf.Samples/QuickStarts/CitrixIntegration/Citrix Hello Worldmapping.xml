@@ -1,0 +1,8 @@
+<sso>
+<mapping>
+<windowsDomain>ccf</windowsDomain> 
+<windowsUserId>demoagent2</windowsUserId> 
+<externalApplication>Citrix Hello World</externalApplication> 
+<externalUserId>demoagent2</externalUserId> 
+</mapping>
+</sso>

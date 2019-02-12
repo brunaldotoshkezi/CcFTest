@@ -1,0 +1,2 @@
+﻿<SequentialWorkflowActivity x:Class="Microsoft.Ccf.Samples.CcfWorkflows.SampleWebApp1" x:Name="SampleWebApp1" xmlns:ns0="clr-namespace:Microsoft.Ccf.HostedApplicationToolkit.Activity;Assembly=Microsoft.Ccf.HostedApplicationToolkit.Activity, Version=1.0.0.0, Culture=neutral, PublicKeyToken=4f00c1aa5320a4d9" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns="http://schemas.microsoft.com/winfx/2006/xaml/workflow">
+</SequentialWorkflowActivity>

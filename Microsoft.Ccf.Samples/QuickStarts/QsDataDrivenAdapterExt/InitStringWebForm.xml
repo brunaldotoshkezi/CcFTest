@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<initstring>
+	<homePage>file://C:\CCF\SourceCode\Microsoft.Ccf.Samples.Csr.AgentDesktop\Microsoft.Ccf.Samples\QuickStarts\QsDataDrivenAdapterExt\bin\Debug\WebForm.html</homePage>
+	<adapter>
+		<AutomationAdapter />
+	</adapter>
+	<DataDrivenAdapterBindings>
+		<Type>Microsoft.Ccf.QuickStarts.QsDataDrivenAdapterExt.WebDDAExt, Microsoft.Ccf.QuickStarts.QsDataDrivenAdapterExt</Type>
+		<Controls>
+			<InputElement name="text: name">
+				<AttributeMatchPath>
+					<id>text: name</id>
+				</AttributeMatchPath>
+			</InputElement>
+			<NewTag1 name="control1"/>
+			<NewTag2 name="control2"/>
+			<NewTagBadTag name="control_bad"/>
+		</Controls>
+	</DataDrivenAdapterBindings>
+	<displayGroup>MainPanel</displayGroup>
+	<optimumSize x="240" y="180" />
+	<minimumSize x="120" y="60" />
+</initstring>

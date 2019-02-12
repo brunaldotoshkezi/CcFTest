@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ServiceReference>
+	<ProxyGenerationParameters
+		ServiceReferenceUri="http://ccfiis/Microsoft.Ccf.Csr.WebServices.ContactCenter/AddressBook.svc"
+		Name="AddressBook"
+		NotifyPropertyChange="True"
+		UseObservableCollection="False">
+	</ProxyGenerationParameters>
+	<EndPoints>
+		<EndPoint
+			Address="http://ccfiis/Microsoft.Ccf.Csr.WebServices.ContactCenter/AddressBook.svc"
+			BindingConfiguration="BasicHttpBinding_AddressBook"
+			Contract="Microsoft.Ccf.Samples.Csr.AgentDesktop.AddressBook.AddressBook"
+			>
+		</EndPoint>
+	</EndPoints>
+</ServiceReference>

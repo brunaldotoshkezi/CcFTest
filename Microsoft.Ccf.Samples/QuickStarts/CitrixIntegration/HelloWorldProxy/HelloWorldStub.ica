@@ -1,0 +1,21 @@
+[WFClient]
+Version=2
+TcpBrowserAddress=172.16.137.248
+PersistentCachePath=C:\Documents and Settings\DemoAgent2\Application Data\ICAClient\Cache
+ 
+[ApplicationServers]
+WinFormHelloWorldStub=
+ 
+[WinFormHelloWorldStub]
+Address=WinFormHelloWorldStub
+InitialProgram=#WinFormHelloWorldStub
+ClientAudio=On
+AudioBandwidthLimit=2
+Compress=On
+TWIMode=On
+DesiredHRES=640
+DesiredVRES=480
+DesiredColor=2
+TransportDriver=TCP/IP
+WinStationDriver=ICA 3.0
+ScreenPercent=0

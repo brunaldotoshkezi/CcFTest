@@ -1,0 +1,749 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="DESKTOP_ERR_SETUP_MENU" xml:space="preserve">
+    <value>Failed to set up the menu.</value>
+  </data>
+  <data name="DESKTOP_APPCREATE_ERROR" xml:space="preserve">
+    <value>Unable to create hosted applications.
+
+The application may now exit.</value>
+  </data>
+  <data name="AGENT_DESKTOP_ADDR_BOOK_DLG_TOOLTIP_DEPT" xml:space="preserve">
+    <value>Department:</value>
+  </data>
+  <data name="DESKTOP_ERR_REQUEST_ASSISTANCE_CAPTION" xml:space="preserve">
+    <value>Assistance disabled</value>
+  </data>
+  <data name="DESKTOP_GETNUMBER_DIAL" xml:space="preserve">
+    <value>Dial</value>
+  </data>
+  <data name="LOOKUP_DLG_HOME_PHONE" xml:space="preserve">
+    <value>Home Phone</value>
+  </data>
+  <data name="DESKTOP_MSG_LOGIN_FAILURE " xml:space="preserve">
+    <value>Internal error while login to the server. Please try after sometime.</value>
+  </data>
+  <data name="DESKTOP_MSG_ONHOLD" xml:space="preserve">
+    <value>On hold</value>
+  </data>
+  <data name="DESKTOP_APPSTART_ERROR" xml:space="preserve">
+    <value>Unable to start application:</value>
+  </data>
+  <data name="SELECT_CALL_DLG_STARTED_COL" xml:space="preserve">
+    <value>Started</value>
+  </data>
+  <data name="SESSION_HAS_A_HELD_CALL" xml:space="preserve">
+    <value>This session has a held call.  You need to take the call off hold before closing the session.
+
+Do you wish to speak to the customer now?</value>
+  </data>
+  <data name="DESKTOP_ERR_RTC_TAPI_CONFLICT" xml:space="preserve">
+    <value>RTC is disabled because of a conflict with TAPI.
+You can use CTI remoting with TAPI or
+Use a telephony standard besides TAPI or not use RTC.</value>
+  </data>
+  <data name="DESKTOP_INFO_CALL_LENGTH" xml:space="preserve">
+    <value>You have been on a call for {0} minute</value>
+  </data>
+  <data name="AGENT_DESKTOP_ADDR_BOOK_DLG_OK_TEXT" xml:space="preserve">
+    <value>&amp;Dial</value>
+  </data>
+  <data name="LOOKUP_DLG_FIRST" xml:space="preserve">
+    <value>First Name</value>
+  </data>
+  <data name="DESKTOP_ERR_UNABLE_TO_RETRIEVE_WORKFLOW_DATA" xml:space="preserve">
+    <value>Problem in retrieving the workflow data.  Please try again.</value>
+  </data>
+  <data name="AGENT_DESKTOP_ADDR_BOOK_DLG_TOOLTIP_LOCATION" xml:space="preserve">
+    <value>Location:</value>
+  </data>
+  <data name="DESKTOP_MSG_INVALID_LOGIN_DETAILS" xml:space="preserve">
+    <value>Unable to login - make sure your login details are correct and try again. Contact administrator if the problem persists.</value>
+  </data>
+  <data name="DESKTOP_MSG_EMPTY_LOGIN_DETAILS" xml:space="preserve">
+    <value>Unable to login - One of the login details is empty. Please give all the details and try again.</value>
+  </data>
+  <data name="DESKTOP_MSG_WEBSERVICE_CLIENT_MISCONFIGURED" xml:space="preserve">
+    <value>Unable to login - The client is not configured correctly. Please contact administrator.</value>
+  </data>
+  <data name="DESKTOP_ERR_UPDATING_CURRENTSESSION" xml:space="preserve">
+    <value>Error updating current session on Session Closed:{0}</value>
+  </data>
+  <data name="AGENT_DESKTOP_ADDR_BOOK_DLG_FIND_TEXT" xml:space="preserve">
+    <value>&amp;Find</value>
+  </data>
+  <data name="DESKTOP_DYNAMIC_APPS_TOOLTIP" xml:space="preserve">
+    <value>Start a Dynamic Application.</value>
+  </data>
+  <data name="DESKTOP_APPLICATIONS_TOOLTIP" xml:space="preserve">
+    <value>Start an Application</value>
+  </data>
+  <data name="SESSION_EXPLORER_SESSIONS_COUNT" xml:space="preserve">
+    <value> - {0} Session(s)</value>
+  </data>
+  <data name="LOOKUP_DLG_LOOKUP_PHONE" xml:space="preserve">
+    <value>Lookup &amp;Phone</value>
+  </data>
+  <data name="DESKTOP_MSG_YOU_ARE_ON" xml:space="preserve">
+    <value>You are on</value>
+  </data>
+  <data name="DESKTOP_REQUEST_ASSISTANCE_TEXT" xml:space="preserve">
+    <value>&amp;Assistance</value>
+  </data>
+  <data name="LOOKUP_DLG_UNABLE_CUST_NAME" xml:space="preserve">
+    <value>Unable to find a customer with the specified name.</value>
+  </data>
+  <data name="SESSION_EXPLORER_STR_SESSION_EXP_MSGBOX_CAPTION" xml:space="preserve">
+    <value>Customer Care - Session Explorer</value>
+  </data>
+  <data name="DESKTOP_APP_SAVE_ERROR" xml:space="preserve">
+    <value>Unable to save the hosted application states.</value>
+  </data>
+  <data name="AGENT_DESKTOP_ADDR_BOOK_DLG_TEXT" xml:space="preserve">
+    <value>Address Book</value>
+  </data>
+  <data name="LOOKUP_DLG_UNABLE_CUST_RECORD" xml:space="preserve">
+    <value>Unable to find the customer record.</value>
+  </data>
+  <data name="DESKTOP_TABFOCUS_ERROR" xml:space="preserve">
+    <value>Failed to display the tab page of the selected application.</value>
+  </data>
+  <data name="CCF_ABOUT_CONTACT_CENTER_FRAMEWORK" xml:space="preserve">
+    <value>Microsoft Customer Care Framework</value>
+  </data>
+  <data name="AGENT_DESKTOP_ADDR_BOOK_DLG_PHONE_TEXT" xml:space="preserve">
+    <value>Phone</value>
+  </data>
+  <data name="DESKTOP_ERR_UNABLE_TOSTART_APPLICATION" xml:space="preserve">
+    <value>Unable to start application</value>
+  </data>
+  <data name="DESKTOP_ERR_PLACING_HOLD" xml:space="preserve">
+    <value>Failed to put the call on hold.  Please try again.</value>
+  </data>
+  <data name="AGENT_DESKTOP_ADDR_BOOK_DLG_TOOLTIP_TITLE" xml:space="preserve">
+    <value>Title:</value>
+  </data>
+  <data name="DESKTOP_ERR_APP_DETAILS" xml:space="preserve">
+    <value>Failed to get applications information from the hosted applications.</value>
+  </data>
+  <data name="SESSION_EXPLORER_LABEL_SORT_BY_TEXT" xml:space="preserve">
+    <value>Sort By:</value>
+  </data>
+  <data name="DESKTOP_MESSAGE_BOX_CAPTION" xml:space="preserve">
+    <value>Customer Care - Agent Desktop</value>
+  </data>
+  <data name="AGENT_DESKTOP_ADDR_BOOK_DLG_TOOLTIP_EMAIL" xml:space="preserve">
+    <value>Email:</value>
+  </data>
+  <data name="DESKTOP_ERR_TRANSFERRING_CALL" xml:space="preserve">
+    <value>Failed to transfer the call.  Please try again.</value>
+  </data>
+  <data name="LOOKUP_DLG_TEXT" xml:space="preserve">
+    <value>Lookup Customer</value>
+  </data>
+  <data name="DESKTOP_APP_RESTORE_ERROR" xml:space="preserve">
+    <value>Failed to retrieve saved sessions.</value>
+  </data>
+  <data name="DESKTOP_MSG_UNABLE_CREATE_CONF" xml:space="preserve">
+    <value>Failed to create a conference call.  Please try again.</value>
+  </data>
+  <data name="DESKTOP_NEW_CUSTOMER" xml:space="preserve">
+    <value>New customer </value>
+  </data>
+  <data name="SESSION_EXPLORER_STR_WORKFLOW_PENDING_MSG2" xml:space="preserve">
+    <value>You have to complete the workflow steps before closing the session.</value>
+  </data>
+  <data name="DESKTOP_ERR_UNABLE_TO_READ_OPTIONS" xml:space="preserve">
+    <value>Unable to read the options settings.</value>
+  </data>
+  <data name="DESKTOP_LOOKUP_TEXT" xml:space="preserve">
+    <value>&amp;Look Up</value>
+  </data>
+  <data name="DESKTOP_DYNAMIC_APPS" xml:space="preserve">
+    <value>Dynamic Applications</value>
+  </data>
+  <data name="DESKTOP_ERR_BUILDAPPIMAGELIST" xml:space="preserve">
+    <value>Failed to retrieve the icon list of applications from hosted applications due to an error in Agent desktop.</value>
+  </data>
+  <data name="DESKTOP_ERR_LOOKUP_CALL" xml:space="preserve">
+    <value>Error in Customer Lookup from Call event.</value>
+  </data>
+  <data name="DESKTOP_MSG_NO_CONFIGURED_PHONE" xml:space="preserve">
+    <value>There is no configured phone to use.</value>
+  </data>
+  <data name="DESKTOP_ERR_UNABLE_HOSTEDAPP" xml:space="preserve">
+    <value>Unable to find hosted applications</value>
+  </data>
+  <data name="SESSION_EXPLORER_MODULE_NAME" xml:space="preserve">
+    <value>Session Explorer</value>
+  </data>
+  <data name="LOOKUP_DLG_BTN_NEW" xml:space="preserve">
+    <value>&amp;New</value>
+  </data>
+  <data name="DESKTOP_HELP_TEXT" xml:space="preserve">
+    <value>&amp;Help</value>
+  </data>
+  <data name="DESKTOP_MSG_CALLEDBY" xml:space="preserve">
+    <value>Called by</value>
+  </data>
+  <data name="DESKTOP_WEB_SERVICES_VERSION" xml:space="preserve">
+    <value>CCF Web Services Version: </value>
+  </data>
+  <data name="LOOKUP_DLG_NO_RECORD_SELECTED" xml:space="preserve">
+    <value>There is no customer record selected.</value>
+  </data>
+  <data name="DESKTOP_ERR_RECD_CALL_EVENT" xml:space="preserve">
+    <value>You cannot receive a call if telephony objects are not configured.</value>
+  </data>
+  <data name="DESKTOP_REQUEST_ASSISTANCE_TOOLTIP" xml:space="preserve">
+    <value>Request assistance with a specified subject.</value>
+  </data>
+  <data name="DESKTOP_ERR_COULDNOT_FIND_APPLICATION" xml:space="preserve">
+    <value>You do not have access to this hosted application.Please contact the system administrator.</value>
+  </data>
+  <data name="SESSION_EXPLORER_STR_SORTBY_CALL_DATETIME" xml:space="preserve">
+    <value>Sort by Call Start Time</value>
+  </data>
+  <data name="DESKTOP_ERR_UNABLE_CONFIGURE_PHONE" xml:space="preserve">
+    <value>Unable to configure a phone.</value>
+  </data>
+  <data name="AGENT_DESKTOP_ADDR_BOOK_DLG_TOOLTIP_PHONE" xml:space="preserve">
+    <value>Phone:</value>
+  </data>
+  <data name="DESKTOP_ERR_FATAL_ERROR" xml:space="preserve">
+    <value>A possibly fatal error has occurred.  The application may now exit.</value>
+  </data>
+  <data name="DESKTOP_CTI_DEBUG_ENABLED" xml:space="preserve">
+    <value>CTI debug is enabled</value>
+  </data>
+  <data name="DESKTOP_ERR_UNABLE_REQUEST_ASSISTANCE" xml:space="preserve">
+    <value>RTC must be enabled before requesting assistance.</value>
+  </data>
+  <data name="SELECT_CALL_DLG_LABEL1" xml:space="preserve">
+    <value>Select which call to use:</value>
+  </data>
+  <data name="DESKTOP_DATABASES_VERSION" xml:space="preserve">
+    <value>CCF Databases Version: </value>
+  </data>
+  <data name="DESKTOP_DIAL_TEXT" xml:space="preserve">
+    <value>&amp;Dial</value>
+  </data>
+  <data name="DESKTOP_ERR_LOADING_SESSION_INTO_CS" xml:space="preserve">
+    <value>An error has occurred while loading the session into the current session {0}</value>
+  </data>
+  <data name="DESKTOP_UPDATEHOSTEDAPP_ERROR" xml:space="preserve">
+    <value>Unable to update the Hosted Application state.</value>
+  </data>
+  <data name="DESKTOP_ERR_UNABLE_CONNECT_SQL" xml:space="preserve">
+    <value>Unable to connect to SQL database.</value>
+  </data>
+  <data name="DESKTOP_MSG_ALREADY_RUNNING" xml:space="preserve">
+    <value> is already running.</value>
+  </data>
+  <data name="AGENT_DESKTOP_ADDR_BOOK_DLG_LABEL1_TEXT" xml:space="preserve">
+    <value>Enter a name or first letters of a name to find.  Hold the mouse over a name for details.</value>
+  </data>
+  <data name="LOOKUP_DLG_ERROR_MSG" xml:space="preserve">
+    <value>ErrorMsg</value>
+  </data>
+  <data name="DESKTOP_ERR_RTC" xml:space="preserve">
+    <value>An error has occurred while initializing RTC component.  You will not be able to use Instant Messaging.</value>
+  </data>
+  <data name="SELECT_CALL_DLG_TEXT" xml:space="preserve">
+    <value>Select which Call</value>
+  </data>
+  <data name="DESKTOP_CCF_ABOUT_ERROR" xml:space="preserve">
+    <value>Error in displaying the CCF About dialog box.</value>
+  </data>
+  <data name="SESSION_EXPLORER_STR_SORTBY_CUSTOMER_NAME" xml:space="preserve">
+    <value>Sort by Customer Name</value>
+  </data>
+  <data name="AGENT_DESKTOP_ADDR_BOOK_DLG_USERNAME_TEXT" xml:space="preserve">
+    <value>Name</value>
+  </data>
+  <data name="DESKTOP_HOLD_TEXT" xml:space="preserve">
+    <value>&amp;Hold</value>
+  </data>
+  <data name="DESKTOP_ERR_UNABLE_SET_STATUS" xml:space="preserve">
+    <value>Unable to set status to</value>
+  </data>
+  <data name="DESKTOP_ERR_HANGUP_PHONE" xml:space="preserve">
+    <value>Failed to hang up the call.  Please try again.</value>
+  </data>
+  <data name="DESKTOP_ERR_UPDATING_HOSTED_APP_OR_CS" xml:space="preserve">
+    <value>An error has occurred while updating hosted application/current session :{0}</value>
+  </data>
+  <data name="DESKTOP_UNHOLD_TEXT" xml:space="preserve">
+    <value>&amp;Unhold</value>
+  </data>
+  <data name="AGENT_DESKTOP_ADDR_BOOK_DLG_NAME_TO_FIND" xml:space="preserve">
+    <value>a</value>
+  </data>
+  <data name="LOOKUP_DLG_UNABLE_CUST_PHONE_NUMBER" xml:space="preserve">
+    <value>Unable to find a customer with the specified phone number.</value>
+  </data>
+  <data name="DESKTOP_ERR_TAKING_CALLOFF_HOLD" xml:space="preserve">
+    <value>Failed to take the call off hold.  Please try again.</value>
+  </data>
+  <data name="AGENT_DESKTOP_ADDR_BOOK_DLG_ERR_INITIALIZING_ADDR_BOOK" xml:space="preserve">
+    <value>Error initializing address book.</value>
+  </data>
+  <data name="DESKTOP_ERR_CLICKING_TOOLBAR_BUTTON" xml:space="preserve">
+    <value>An error has occurred while clicking the toolbar button.</value>
+  </data>
+  <data name="LOOKUP_DLG_LBL5" xml:space="preserve">
+    <value>Or</value>
+  </data>
+  <data name="SELECT_CALL_DLG_BTN_OK" xml:space="preserve">
+    <value>OK</value>
+  </data>
+  <data name="LOOKUP_DLG_LABEL4" xml:space="preserve">
+    <value>Or</value>
+  </data>
+  <data name="DESKTOP_EXPLAIN_ERROR" xml:space="preserve">
+    <value>Other reasons for this error are that the database could not be reached/nor the web services are not running.</value>
+  </data>
+  <data name="LOOKUP_DLG_LBEL8" xml:space="preserve">
+    <value>&amp;First Name:</value>
+  </data>
+  <data name="DESKTOP_ERR_UPDATING_HOSTEDAPPS" xml:space="preserve">
+    <value>Failed to update the hosted application's state.</value>
+  </data>
+  <data name="DESKTOP_HELP_TOOLTIP" xml:space="preserve">
+    <value>Help - About Customer Care Framework</value>
+  </data>
+  <data name="DESKTOP_MSG_CALLWITH" xml:space="preserve">
+    <value>On call with</value>
+  </data>
+  <data name="DESKTOP_ERR_MAKING_CALL" xml:space="preserve">
+    <value>Failed to make a call.  Please try again.</value>
+  </data>
+  <data name="DESKTOP_ERR_UNABLE_SET_PRESENCE_VALUE" xml:space="preserve">
+    <value>Unable to set presence value</value>
+  </data>
+  <data name="DESKTOP_MODIFY_PHONE_MENU" xml:space="preserve">
+    <value>Failed to modify the phone menu.</value>
+  </data>
+  <data name="DESKTOP_ERR_UNABLE_LOGIN" xml:space="preserve">
+    <value>Unable to login - make sure your domain\\user name is correctly configured in the system.
+
+Application will exit now.</value>
+  </data>
+  <data name="SESSION_EXPLORER_CLOSE_SESSION" xml:space="preserve">
+    <value>Close Session</value>
+  </data>
+  <data name="AGENT_DESKTOP_GET_NUMBER_CANCEL_TEXT" xml:space="preserve">
+    <value>&amp;Cancel</value>
+  </data>
+  <data name="DESKTOP_ANSWER_TEXT" xml:space="preserve">
+    <value>&amp;Answer</value>
+  </data>
+  <data name="DESKTOP_ERR_LOADING_APPLICATIONS" xml:space="preserve">
+    <value>Error while loading applications. Desktop will now close.</value>
+  </data>
+  <data name="DESKTOP_VERSIONS_RETRIEVAL_ERROR" xml:space="preserve">
+    <value>The versions of CCF databases and the web services could not be retrieved.</value>
+  </data>
+  <data name="DESKTOP_MSG_SQL_EXIST" xml:space="preserve">
+    <value>SQL Server can not be found.</value>
+  </data>
+  <data name="DESKTOP_AGENT_DESKTOP_VERSION" xml:space="preserve">
+    <value>Agent Desktop Version: </value>
+  </data>
+  <data name="LOOKUP_DLG_ADDRESS" xml:space="preserve">
+    <value>Address</value>
+  </data>
+  <data name="DESKTOP_ERR_UNABLE_RESET_CUSTINFO" xml:space="preserve">
+    <value>Unable to reset customer information.</value>
+  </data>
+  <data name="DESKTOP_MENU_ITEM_TEXT_ABOUT_CONTACT_CENTER_FRAMEWORK" xml:space="preserve">
+    <value>&amp;About Customer Care Framework</value>
+  </data>
+  <data name="DESKTOP_IIS_ERROR" xml:space="preserve">
+    <value>Failed to connect to the web server.  Please verify that you can connect to the web server.</value>
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="AgentDesktop" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>AgentDesktop.ico;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="DESKTOP_ERR_CONFERENCING_CALL" xml:space="preserve">
+    <value>An error has occurred while making a conference call.  Please try again.</value>
+  </data>
+  <data name="SELECT_CALL_DLG_SELECT_A_CALL" xml:space="preserve">
+    <value>Please select any row in the list.</value>
+  </data>
+  <data name="DESKTOP_STATUS_TOOLTIP" xml:space="preserve">
+    <value>Shows and sets your current status</value>
+  </data>
+  <data name="DESKTOP_ERR_UNABLE_MARSHALL" xml:space="preserve">
+    <value>Unable to marshal the call event to main thread.</value>
+  </data>
+  <data name="DESKTOP_ERR_INIT_TELEPHONY" xml:space="preserve">
+    <value>An error has occurred while initializing telephony component.</value>
+  </data>
+  <data name="DESKTOP_CONFERENCE_TEXT" xml:space="preserve">
+    <value>&amp;Conference</value>
+  </data>
+  <data name="DESKTOP_MODULE_NAME" xml:space="preserve">
+    <value>Agent Desktop</value>
+  </data>
+  <data name="DESKTOP_DYNAMIC_APP_LAUNCH_CONFIRMATION_MSG" xml:space="preserve">
+    <value>Do you want to launch the Dynamic Hosted Application?</value>
+  </data>
+  <data name="AGENT_DESKTOP_ADDR_BOOK_DLG_MSG_NO_ADDR" xml:space="preserve">
+    <value>There is no address to dial.</value>
+  </data>
+  <data name="SESSION_EXPLORER_LABEL_HELP_ICON_TEXT" xml:space="preserve">
+    <value>Help</value>
+  </data>
+  <data name="COMMON_MSG_IIS_ERROR" xml:space="preserve">
+    <value>Unable to connect to the web server</value>
+  </data>
+  <data name="LOOKUP_DLG_SELECT" xml:space="preserve">
+    <value>&amp;Select</value>
+  </data>
+  <data name="DESKTOP_MSG_RINGING" xml:space="preserve">
+    <value>Ringing</value>
+  </data>
+  <data name="DESKTOP_ERR_REQUESTASSISTANCE" xml:space="preserve">
+    <value>Failed to find the requested assistance details.</value>
+  </data>
+  <data name="DESKTOP_ERR_EXCEPTION" xml:space="preserve">
+    <value>Exception:</value>
+  </data>
+  <data name="LOOKUP_DLG_UNABLE_CUST_ID" xml:space="preserve">
+    <value>Unable to find the specified customer.</value>
+  </data>
+  <data name="DESKTOP_ERR_REQUEST_ASSISTANCE_MESSAGE" xml:space="preserve">
+    <value>Your account is not enabled for instant messaging. You will not be able to request assistance.</value>
+  </data>
+  <data name="LOOKUP_DLG_LABEL7" xml:space="preserve">
+    <value>Las&amp;t Name:</value>
+  </data>
+  <data name="DESKTOP_STATUS_TEXT" xml:space="preserve">
+    <value>&amp;Status:</value>
+  </data>
+  <data name="DESKTOP_TIMER_TICK_INFO_EXCEPTION" xml:space="preserve">
+    <value>Exception:</value>
+  </data>
+  <data name="LOOKUP_DLG_NEED_BOTH_NAMES" xml:space="preserve">
+    <value>Need both a first and last name or at least both a partial first and last name.</value>
+  </data>
+  <data name="DESKTOP_WS_VERSION_MISMATCH_ERROR" xml:space="preserve">
+    <value>The versions of Agent Desktop and the CCF Web Services are not same.</value>
+  </data>
+  <data name="DESKTOP_LOOKUP_TOOLTIP" xml:space="preserve">
+    <value>Look up a customer record</value>
+  </data>
+  <data name="DESKTOP_ERR_MODIFY_STATUS_MENU" xml:space="preserve">
+    <value>Failed to modify the Agent's status.</value>
+  </data>
+  <data name="COMMON_ERR_SQL_CONNECTION" xml:space="preserve">
+    <value>SQL Server does not exist</value>
+  </data>
+  <data name="ccf_splash_screen_2008" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\ccf_splash_screen_2008.jpg;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="DESKTOP_UNKNOWN_VERSION" xml:space="preserve">
+    <value>Unknown</value>
+  </data>
+  <data name="LOOKUP_DLG_LOOKUP_NAME" xml:space="preserve">
+    <value>Lookup N&amp;ame</value>
+  </data>
+  <data name="DESKTOP_LOADNONHOSTEDAPP_ERROR" xml:space="preserve">
+    <value>Unable to load the Non-Hosted Applications.</value>
+  </data>
+  <data name="DESKTOP_APPLICATIONS_TEXT" xml:space="preserve">
+    <value>Applicat&amp;ions</value>
+  </data>
+  <data name="LOOKUP_DLG_LOOKUP_ID" xml:space="preserve">
+    <value> &amp;Lookup ID</value>
+  </data>
+  <data name="DESKTOP_ERR_UPDATING_CS_WITH_CURR_APP" xml:space="preserve">
+    <value>An error has occurred while updating the current session of the active application:{0}</value>
+  </data>
+  <data name="SESSION_EXPLORER_STR_HELP_STRING1" xml:space="preserve">
+    <value>Clicking a session will switch sessions and open the session's last application.</value>
+  </data>
+  <data name="DESKTOP_TRANSFER_TEXT" xml:space="preserve">
+    <value>&amp;Transfer</value>
+  </data>
+  <data name="DESKTOP_PHONE_TOOLTIP" xml:space="preserve">
+    <value>Make and Handle Calls</value>
+  </data>
+  <data name="CCF_ABOUT_COPYRIGHT" xml:space="preserve">
+    <value>Copyright © 2000-2007 Microsoft Corporation</value>
+  </data>
+  <data name="DESKTOP_INFOTEXT_CALLING" xml:space="preserve">
+    <value>Calling</value>
+  </data>
+  <data name="DESKTOP_ERR_SETTING_CONTEXT_APP" xml:space="preserve">
+    <value>Failed to set the application context.</value>
+  </data>
+  <data name="LOOKUP_DLG_LBL6" xml:space="preserve">
+    <value>P&amp;hone Number:</value>
+  </data>
+  <data name="LOOKUP_DLG_CANCEL" xml:space="preserve">
+    <value>&amp;Cancel</value>
+  </data>
+  <data name="LOOKUP_DLG_WORK_PHONE" xml:space="preserve">
+    <value>Mobile</value>
+  </data>
+  <data name="DESKTOP_ERR_INIT_SESSION" xml:space="preserve">
+    <value>Failed to initialize Session Explorer.</value>
+  </data>
+  <data name="DESKTOP_CLOSE_AFTER_TRANSFER" xml:space="preserve">
+    <value>Do you want to close this session now?</value>
+  </data>
+  <data name="DESKTOP_MSG_STARTING_IM" xml:space="preserve">
+    <value>Starting IM conversation with</value>
+  </data>
+  <data name="AGENT_DESKTOP_GET_NUMBER_ADDR_BOOK_TEXT" xml:space="preserve">
+    <value>&amp;Address Book</value>
+  </data>
+  <data name="DESKTOP_TABAPP_ERROR" xml:space="preserve">
+    <value>Unable to get the application details from the selected tab.</value>
+  </data>
+  <data name="DESKTOP_MSG_OUTGOING" xml:space="preserve">
+    <value>Out going</value>
+  </data>
+  <data name="DESKTOP_INFO_AGENT_DESKTOP_EXITED" xml:space="preserve">
+    <value>Agentdesktop exited.</value>
+  </data>
+  <data name="DESKTOP_ERR_IN_CALL_EVENT" xml:space="preserve">
+    <value>Error in call event.</value>
+  </data>
+  <data name="DESKTOP_HANGUP_TEXT" xml:space="preserve">
+    <value>&amp;Hangup</value>
+  </data>
+  <data name="DESKTOP_ERR_IN_LOAD" xml:space="preserve">
+    <value>Error while loading Desktop.</value>
+  </data>
+  <data name="CCF_ABOUT_VERSION" xml:space="preserve">
+    <value>Version 3.0</value>
+  </data>
+  <data name="DESKTOP_ERR_TRANSFERRING_SESSION" xml:space="preserve">
+    <value>Error transferring the session.</value>
+  </data>
+  <data name="LOOKUP_DLG_LAST" xml:space="preserve">
+    <value>Last Name</value>
+  </data>
+  <data name="SESSION_EXPLORER_STR_HELP_STRING2" xml:space="preserve">
+    <value>Clicking an application will switch sessions to that application.</value>
+  </data>
+  <data name="SESSION_EXPLORER_ERR_DISPLAYING_HELP" xml:space="preserve">
+    <value>Failed to display/hide Help for Session Explorer.</value>
+  </data>
+  <data name="DESKTOP_ERR_CHANGING_SESSION" xml:space="preserve">
+    <value>Error in changing the session through current session.</value>
+  </data>
+  <data name="DESKTOP_ERR_PREFILTERING_MSG" xml:space="preserve">
+    <value>An error has occurred while pre-filtering messages.</value>
+  </data>
+  <data name="LOOKUP_DLG_LABEL1" xml:space="preserve">
+    <value>C&amp;ustomer ID:</value>
+  </data>
+  <data name="DESKTOP_MSG_STARTING" xml:space="preserve">
+    <value>Agentdesktop starting...</value>
+  </data>
+  <data name="AGENT_DESKTOP_GET_NUMBER_ERR_READING_ADDR_BOOK" xml:space="preserve">
+    <value>Problem reading address book.</value>
+  </data>
+  <data name="AGENT_DESKTOP_GET_NUMBER_LABEL1_TEXT" xml:space="preserve">
+    <value>Call:</value>
+  </data>
+  <data name="DESKTOP_MSG_UNABLE_FIND_ASSISTANCE" xml:space="preserve">
+    <value>Unable to find assistance for</value>
+  </data>
+  <data name="DESKTOP_GETNUMBER_CONFERENCE" xml:space="preserve">
+    <value>Conference</value>
+  </data>
+  <data name="AGENT_DESKTOP_ADDR_BOOK_DLG_MSG_SELECT_ADDR" xml:space="preserve">
+    <value>You need to select an address to dial.</value>
+  </data>
+  <data name="AGENT_DESKTOP_ADDR_BOOK_DLG_CANCEL_TEXT" xml:space="preserve">
+    <value>&amp;Cancel</value>
+  </data>
+  <data name="DESKTOP_INFO_NO_CURRENT_CALL" xml:space="preserve">
+    <value>No Current Call.</value>
+  </data>
+  <data name="DESKTOP_ERR_RETRIEVING_AGENT_PHONE_NUMBER" xml:space="preserve">
+    <value>Error retrieving agent identifier given the agent phone number.</value>
+  </data>
+  <data name="SESSION_HAS_A_CONNECTED_CALL" xml:space="preserve">
+    <value>This session still has a call.
+
+Do you wish to hang it up?</value>
+  </data>
+  <data name="SESSION_EXPLORER_STR_WORKFLOW_PENDING_MSG1" xml:space="preserve">
+    <value>Workflow for this session is pending.</value>
+  </data>
+  <data name="AGENT_DESKTOP_ADDR_BOOK_DLG_ERR_READING_ADDR_BOOK" xml:space="preserve">
+    <value>Error reading address book.</value>
+  </data>
+  <data name="DESKTOP_ERR_UNABLE_ESTABLISH_CONNECTION" xml:space="preserve">
+    <value>Unable to establish connection to telephony component.</value>
+  </data>
+  <data name="SELECT_CALL_DLG_STATE_COL" xml:space="preserve">
+    <value>State</value>
+  </data>
+  <data name="DESKTOP_MSG_CALLS" xml:space="preserve">
+    <value>Calls</value>
+  </data>
+  <data name="DESKTOP_PHONE_TEXT" xml:space="preserve">
+    <value>&amp;Phone</value>
+  </data>
+  <data name="DESKTOP_CLOSE_SESSION_TOOLTIP" xml:space="preserve">
+    <value>Closes the current session</value>
+  </data>
+  <data name="DESKTOP_ERR_FATAL_UNABLE_LOG" xml:space="preserve">
+    <value>An error has occurred.  The user login or database settings may be incorrect or the database may not be reachable.</value>
+  </data>
+  <data name="DESKTOP_DB_VERSION_MISMATCH_ERROR" xml:space="preserve">
+    <value>The versions of Agent Desktop and the CCF Databases are not same.</value>
+  </data>
+  <data name="DESKTOP_ERR_UNABLE_WEBSERVICE" xml:space="preserve">
+    <value>Failed to start web services.</value>
+  </data>
+  <data name="DESKTOP_INFO_CALL_LENGTH_PLURAL" xml:space="preserve">
+    <value>You have been on a call for {0} minutes</value>
+  </data>
+  <data name="CCF_ABOUT_DOTNET_VERSION" xml:space="preserve">
+    <value>.Net Version: </value>
+  </data>
+  <data name="SELECT_CALL_DLG_PARTIES_COL" xml:space="preserve">
+    <value>Parties</value>
+  </data>
+  <data name="SELECT_CALL_DLG_BTN_CANCEL" xml:space="preserve">
+    <value>&amp;Cancel</value>
+  </data>
+  <data name="APPLICATION_NAME" xml:space="preserve">
+    <value>Agent Desktop</value>
+  </data>
+  <data name="AGENT_DESKTOP_GET_NUMBER_OK_TEXT" xml:space="preserve">
+    <value>&amp;Dial</value>
+  </data>
+  <data name="DESKTOP_UNABLE_TO_CLOSE_DYNAMIC_APP_DUE_TO_WORKFLOW" xml:space="preserve">
+    <value>This dynamic application cannot be closed until the workflow is done or cancelled.</value>
+  </data>
+  <data name="DESKTOP_ERR_READING_OR_PARSING_APPSETTINGS" xml:space="preserve">
+    <value>An error has occurred while retrieving or parsing the {0} AppSettings value.</value>
+  </data>
+</root>

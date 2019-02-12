@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ServiceReference>
+	<ProxyGenerationParameters
+		ServiceReferenceUri="http://ccfiis/Microsoft.Ccf.Csr.WebServices.Customer/Customer.svc"
+		Name="CustomerWS"
+		NotifyPropertyChange="False"
+		UseObservableCollection="False">
+	</ProxyGenerationParameters>
+	<EndPoints>
+		<EndPoint
+			Address="http://ccfiis/Microsoft.Ccf.Csr.WebServices.Customer/Customer.svc"
+			BindingConfiguration="BasicHttpBinding_Customer"
+			Contract="Microsoft.Ccf.Adapter.CustomerWS.Customer"
+			>
+		</EndPoint>
+	</EndPoints>
+</ServiceReference>

@@ -1,0 +1,744 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="DESKTOP_ERR_SETUP_MENU" xml:space="preserve">
+    <value>メニューを設定できませんでした。</value>
+  </data>
+  <data name="DESKTOP_APPCREATE_ERROR" xml:space="preserve">
+    <value>ホスト アプリケーションを作成できません。
+
+アプリケーションは直ちに終了する可能性があります。</value>
+  </data>
+  <data name="AGENT_DESKTOP_ADDR_BOOK_DLG_TOOLTIP_DEPT" xml:space="preserve">
+    <value>部署:</value>
+  </data>
+  <data name="DESKTOP_ERR_REQUEST_ASSISTANCE_CAPTION" xml:space="preserve">
+    <value>アシスタンスは無効です</value>
+  </data>
+  <data name="DESKTOP_GETNUMBER_DIAL" xml:space="preserve">
+    <value>ダイヤル</value>
+  </data>
+  <data name="LOOKUP_DLG_HOME_PHONE" xml:space="preserve">
+    <value>自宅電話</value>
+  </data>
+  <data name="DESKTOP_MSG_LOGIN_FAILURE " xml:space="preserve">
+    <value>サーバーへログインするときに内部エラーが発生しました。しばらくしてから再実行してください。</value>
+  </data>
+  <data name="DESKTOP_MSG_ONHOLD" xml:space="preserve">
+    <value>保留中</value>
+  </data>
+  <data name="DESKTOP_APPSTART_ERROR" xml:space="preserve">
+    <value>アプリケーションを起動できません:</value>
+  </data>
+  <data name="SELECT_CALL_DLG_STARTED_COL" xml:space="preserve">
+    <value>開始</value>
+  </data>
+  <data name="SESSION_HAS_A_HELD_CALL" xml:space="preserve">
+    <value>このセッションには保留中の通話があります。セッションを閉じる前に、通話の保留を解除する必要があります。
+
+今お客様と話しますか?</value>
+  </data>
+  <data name="DESKTOP_ERR_RTC_TAPI_CONFLICT" xml:space="preserve">
+    <value>TAPI と競合するため、RTC は無効になっています。CTI リモート処理と共に TAPI を使用するか、TAPI 以外のテレフォニー標準を使用してください。または、RTC を使用しないでください。</value>
+  </data>
+  <data name="DESKTOP_INFO_CALL_LENGTH" xml:space="preserve">
+    <value>通話時間が {0} 分経過しました</value>
+  </data>
+  <data name="AGENT_DESKTOP_ADDR_BOOK_DLG_OK_TEXT" xml:space="preserve">
+    <value>ダイヤル(&amp;D)</value>
+  </data>
+  <data name="LOOKUP_DLG_FIRST" xml:space="preserve">
+    <value>名</value>
+  </data>
+  <data name="DESKTOP_ERR_UNABLE_TO_RETRIEVE_WORKFLOW_DATA" xml:space="preserve">
+    <value>ワークフロー データを取得するときに問題が発生しました。再実行してください。</value>
+  </data>
+  <data name="AGENT_DESKTOP_ADDR_BOOK_DLG_TOOLTIP_LOCATION" xml:space="preserve">
+    <value>場所:</value>
+  </data>
+  <data name="DESKTOP_MSG_INVALID_LOGIN_DETAILS" xml:space="preserve">
+    <value>ログインできません。ログインの詳細が正しいことを確認して、再実行してください。問題が解決しない場合は、管理者に連絡してください。</value>
+  </data>
+  <data name="DESKTOP_MSG_EMPTY_LOGIN_DETAILS" xml:space="preserve">
+    <value>Unable to login - One of the login details is empty. Please give all the details and try again.</value>
+  </data>
+  <data name="DESKTOP_ERR_UPDATING_CURRENTSESSION" xml:space="preserve">
+    <value>現在のセッションの更新中に Session Closed でエラーが発生しました: {0}</value>
+  </data>
+  <data name="AGENT_DESKTOP_ADDR_BOOK_DLG_FIND_TEXT" xml:space="preserve">
+    <value>検索(&amp;F)</value>
+  </data>
+  <data name="DESKTOP_DYNAMIC_APPS_TOOLTIP" xml:space="preserve">
+    <value>動的アプリケーションを起動します。</value>
+  </data>
+  <data name="DESKTOP_APPLICATIONS_TOOLTIP" xml:space="preserve">
+    <value>アプリケーションの起動</value>
+  </data>
+  <data name="SESSION_EXPLORER_SESSIONS_COUNT" xml:space="preserve">
+    <value> - {0} 個のセッション</value>
+  </data>
+  <data name="LOOKUP_DLG_LOOKUP_PHONE" xml:space="preserve">
+    <value>電話のルックアップ(&amp;P)</value>
+  </data>
+  <data name="DESKTOP_MSG_YOU_ARE_ON" xml:space="preserve">
+    <value>オンです</value>
+  </data>
+  <data name="DESKTOP_REQUEST_ASSISTANCE_TEXT" xml:space="preserve">
+    <value>アシスタンス(&amp;A)</value>
+  </data>
+  <data name="LOOKUP_DLG_UNABLE_CUST_NAME" xml:space="preserve">
+    <value>指定された名前の顧客が見つかりません。</value>
+  </data>
+  <data name="SESSION_EXPLORER_STR_SESSION_EXP_MSGBOX_CAPTION" xml:space="preserve">
+    <value>Customer Care - セッション エクスプローラ</value>
+  </data>
+  <data name="DESKTOP_APP_SAVE_ERROR" xml:space="preserve">
+    <value>ホスト アプリケーションの状態を保存できません。</value>
+  </data>
+  <data name="AGENT_DESKTOP_ADDR_BOOK_DLG_TEXT" xml:space="preserve">
+    <value>アドレス帳</value>
+  </data>
+  <data name="LOOKUP_DLG_UNABLE_CUST_RECORD" xml:space="preserve">
+    <value>顧客レコードが見つかりません。</value>
+  </data>
+  <data name="DESKTOP_TABFOCUS_ERROR" xml:space="preserve">
+    <value>選択されたアプリケーションのタブ ページを表示できませんでした。</value>
+  </data>
+  <data name="CCF_ABOUT_CONTACT_CENTER_FRAMEWORK" xml:space="preserve">
+    <value>Microsoft Customer Care Framework</value>
+  </data>
+  <data name="AGENT_DESKTOP_ADDR_BOOK_DLG_PHONE_TEXT" xml:space="preserve">
+    <value>電話</value>
+  </data>
+  <data name="DESKTOP_ERR_UNABLE_TOSTART_APPLICATION" xml:space="preserve">
+    <value>アプリケーションを起動できません</value>
+  </data>
+  <data name="DESKTOP_ERR_PLACING_HOLD" xml:space="preserve">
+    <value>通話を保留にできませんでした。再実行してください。</value>
+  </data>
+  <data name="AGENT_DESKTOP_ADDR_BOOK_DLG_TOOLTIP_TITLE" xml:space="preserve">
+    <value>タイトル:</value>
+  </data>
+  <data name="DESKTOP_ERR_APP_DETAILS" xml:space="preserve">
+    <value>ホスト アプリケーションからアプリケーション情報を取得できませんでした。</value>
+  </data>
+  <data name="SESSION_EXPLORER_LABEL_SORT_BY_TEXT" xml:space="preserve">
+    <value>並べ替え順序:</value>
+  </data>
+  <data name="DESKTOP_MESSAGE_BOX_CAPTION" xml:space="preserve">
+    <value>Customer Care - エージェント デスクトップ</value>
+  </data>
+  <data name="AGENT_DESKTOP_ADDR_BOOK_DLG_TOOLTIP_EMAIL" xml:space="preserve">
+    <value>電子メール:</value>
+  </data>
+  <data name="DESKTOP_ERR_TRANSFERRING_CALL" xml:space="preserve">
+    <value>通話を転送できませんでした。再実行してください。</value>
+  </data>
+  <data name="LOOKUP_DLG_TEXT" xml:space="preserve">
+    <value>顧客のルックアップ</value>
+  </data>
+  <data name="DESKTOP_APP_RESTORE_ERROR" xml:space="preserve">
+    <value>保存済みセッションを取得できませんでした。</value>
+  </data>
+  <data name="DESKTOP_MSG_UNABLE_CREATE_CONF" xml:space="preserve">
+    <value>電話会議を作成できませんでした。再実行してください。</value>
+  </data>
+  <data name="DESKTOP_NEW_CUSTOMER" xml:space="preserve">
+    <value>新しい顧客 </value>
+  </data>
+  <data name="SESSION_EXPLORER_STR_WORKFLOW_PENDING_MSG2" xml:space="preserve">
+    <value>セッションを閉じる前にワークフロー ステップを完了する必要があります。</value>
+  </data>
+  <data name="DESKTOP_ERR_UNABLE_TO_READ_OPTIONS" xml:space="preserve">
+    <value>オプション設定を読み取れません。</value>
+  </data>
+  <data name="DESKTOP_LOOKUP_TEXT" xml:space="preserve">
+    <value>ルックアップ(&amp;L)</value>
+  </data>
+  <data name="DESKTOP_DYNAMIC_APPS" xml:space="preserve">
+    <value>Dynamic Applications</value>
+  </data>
+  <data name="DESKTOP_ERR_BUILDAPPIMAGELIST" xml:space="preserve">
+    <value>エージェント デスクトップのエラーのため、ホスト アプリケーションからアプリケーションのアイコン リストを取得できませんでした。</value>
+  </data>
+  <data name="DESKTOP_ERR_LOOKUP_CALL" xml:space="preserve">
+    <value>通話イベントからの顧客ルックアップでエラーが発生しました。</value>
+  </data>
+  <data name="DESKTOP_MSG_NO_CONFIGURED_PHONE" xml:space="preserve">
+    <value>使用するように構成された電話はありません。</value>
+  </data>
+  <data name="DESKTOP_ERR_UNABLE_HOSTEDAPP" xml:space="preserve">
+    <value>ホスト アプリケーションが見つかりません</value>
+  </data>
+  <data name="SESSION_EXPLORER_MODULE_NAME" xml:space="preserve">
+    <value>セッション エクスプローラ</value>
+  </data>
+  <data name="LOOKUP_DLG_BTN_NEW" xml:space="preserve">
+    <value>新規(&amp;N)</value>
+  </data>
+  <data name="DESKTOP_HELP_TEXT" xml:space="preserve">
+    <value>ヘルプ(&amp;H)</value>
+  </data>
+  <data name="DESKTOP_MSG_CALLEDBY" xml:space="preserve">
+    <value>発信元</value>
+  </data>
+  <data name="DESKTOP_WEB_SERVICES_VERSION" xml:space="preserve">
+    <value>CCF Web サービスのバージョン: </value>
+  </data>
+  <data name="LOOKUP_DLG_NO_RECORD_SELECTED" xml:space="preserve">
+    <value>顧客レコードが選択されていません。</value>
+  </data>
+  <data name="DESKTOP_ERR_RECD_CALL_EVENT" xml:space="preserve">
+    <value>テレフォニー オブジェクトが構成されていない場合は、電話を受けることができません。</value>
+  </data>
+  <data name="DESKTOP_REQUEST_ASSISTANCE_TOOLTIP" xml:space="preserve">
+    <value>指定された件についてアシスタンスを要求します。</value>
+  </data>
+  <data name="DESKTOP_ERR_COULDNOT_FIND_APPLICATION" xml:space="preserve">
+    <value>このホスト アプリケーションに対するアクセス権がありません。システム管理者に連絡してください。</value>
+  </data>
+  <data name="SESSION_EXPLORER_STR_SORTBY_CALL_DATETIME" xml:space="preserve">
+    <value>通話開始時間で並べ替え</value>
+  </data>
+  <data name="DESKTOP_ERR_UNABLE_CONFIGURE_PHONE" xml:space="preserve">
+    <value>電話を構成できません。</value>
+  </data>
+  <data name="AGENT_DESKTOP_ADDR_BOOK_DLG_TOOLTIP_PHONE" xml:space="preserve">
+    <value>電話:</value>
+  </data>
+  <data name="DESKTOP_ERR_FATAL_ERROR" xml:space="preserve">
+    <value>致命的な可能性のあるエラーが発生しました。アプリケーションは直ちに終了する可能性があります。</value>
+  </data>
+  <data name="DESKTOP_CTI_DEBUG_ENABLED" xml:space="preserve">
+    <value>CTI デバッグが有効です</value>
+  </data>
+  <data name="DESKTOP_ERR_UNABLE_REQUEST_ASSISTANCE" xml:space="preserve">
+    <value>アシスタンスを要求する前に、RTC を有効にする必要があります。</value>
+  </data>
+  <data name="SELECT_CALL_DLG_LABEL1" xml:space="preserve">
+    <value>使用する通話を選択してください:</value>
+  </data>
+  <data name="DESKTOP_DATABASES_VERSION" xml:space="preserve">
+    <value>CCF データベースのバージョン: </value>
+  </data>
+  <data name="DESKTOP_DIAL_TEXT" xml:space="preserve">
+    <value>ダイヤル(&amp;D)</value>
+  </data>
+  <data name="DESKTOP_ERR_LOADING_SESSION_INTO_CS" xml:space="preserve">
+    <value>現在のセッション {0} にセッションを読み込むときにエラーが発生しました。</value>
+  </data>
+  <data name="DESKTOP_UPDATEHOSTEDAPP_ERROR" xml:space="preserve">
+    <value>ホスト アプリケーションの状態を更新できません。</value>
+  </data>
+  <data name="DESKTOP_ERR_UNABLE_CONNECT_SQL" xml:space="preserve">
+    <value>SQL データベースに接続できません。</value>
+  </data>
+  <data name="DESKTOP_MSG_ALREADY_RUNNING" xml:space="preserve">
+    <value> は既に実行中です。</value>
+  </data>
+  <data name="AGENT_DESKTOP_ADDR_BOOK_DLG_LABEL1_TEXT" xml:space="preserve">
+    <value>検索したい名前の全体または最初の数文字を入力します。名前の上にマウスを置くと、詳細が表示されます。</value>
+  </data>
+  <data name="LOOKUP_DLG_ERROR_MSG" xml:space="preserve">
+    <value>ErrorMsg</value>
+  </data>
+  <data name="DESKTOP_ERR_RTC" xml:space="preserve">
+    <value>RTC コンポーネントの初期化中にエラーが発生しました。インスタント メッセージングは使用できません。</value>
+  </data>
+  <data name="SELECT_CALL_DLG_TEXT" xml:space="preserve">
+    <value>通話の選択</value>
+  </data>
+  <data name="DESKTOP_CCF_ABOUT_ERROR" xml:space="preserve">
+    <value>CCF のバージョン情報ダイアログ ボックスを表示するときにエラーが発生しました。</value>
+  </data>
+  <data name="SESSION_EXPLORER_STR_SORTBY_CUSTOMER_NAME" xml:space="preserve">
+    <value>顧客名で並べ替え</value>
+  </data>
+  <data name="AGENT_DESKTOP_ADDR_BOOK_DLG_USERNAME_TEXT" xml:space="preserve">
+    <value>名前</value>
+  </data>
+  <data name="DESKTOP_HOLD_TEXT" xml:space="preserve">
+    <value>保留(&amp;H)</value>
+  </data>
+  <data name="DESKTOP_ERR_UNABLE_SET_STATUS" xml:space="preserve">
+    <value>状態を設定できません</value>
+  </data>
+  <data name="DESKTOP_ERR_HANGUP_PHONE" xml:space="preserve">
+    <value>電話を切ることができませんでした。再実行してください。</value>
+  </data>
+  <data name="DESKTOP_ERR_UPDATING_HOSTED_APP_OR_CS" xml:space="preserve">
+    <value>ホスト アプリケーション/現在のセッション {0} の更新中にエラーが発生しました。</value>
+  </data>
+  <data name="DESKTOP_UNHOLD_TEXT" xml:space="preserve">
+    <value>保留解除(&amp;U)</value>
+  </data>
+  <data name="AGENT_DESKTOP_ADDR_BOOK_DLG_NAME_TO_FIND" xml:space="preserve">
+    <value>a</value>
+  </data>
+  <data name="LOOKUP_DLG_UNABLE_CUST_PHONE_NUMBER" xml:space="preserve">
+    <value>指定された電話番号を持つ顧客が見つかりません。</value>
+  </data>
+  <data name="DESKTOP_ERR_TAKING_CALLOFF_HOLD" xml:space="preserve">
+    <value>通話の保留を解除できませんでした。再実行してください。</value>
+  </data>
+  <data name="AGENT_DESKTOP_ADDR_BOOK_DLG_ERR_INITIALIZING_ADDR_BOOK" xml:space="preserve">
+    <value>アドレス帳の初期化中にエラーが発生しました。</value>
+  </data>
+  <data name="DESKTOP_ERR_CLICKING_TOOLBAR_BUTTON" xml:space="preserve">
+    <value>ツール バーのボタンをクリックするときにエラーが発生しました。</value>
+  </data>
+  <data name="LOOKUP_DLG_LBL5" xml:space="preserve">
+    <value>または</value>
+  </data>
+  <data name="SELECT_CALL_DLG_BTN_OK" xml:space="preserve">
+    <value>OK</value>
+  </data>
+  <data name="LOOKUP_DLG_LABEL4" xml:space="preserve">
+    <value>または</value>
+  </data>
+  <data name="DESKTOP_EXPLAIN_ERROR" xml:space="preserve">
+    <value>このエラーのその他の理由としては、データベースが到達不可能で、Web サービスも実行されていないことが考えられます。</value>
+  </data>
+  <data name="LOOKUP_DLG_LBEL8" xml:space="preserve">
+    <value>名(&amp;F):</value>
+  </data>
+  <data name="DESKTOP_ERR_UPDATING_HOSTEDAPPS" xml:space="preserve">
+    <value>ホスト アプリケーションの状態を更新できませんでした。</value>
+  </data>
+  <data name="DESKTOP_HELP_TOOLTIP" xml:space="preserve">
+    <value>ヘルプ - Customer Care Framework のバージョン情報</value>
+  </data>
+  <data name="DESKTOP_MSG_CALLWITH" xml:space="preserve">
+    <value>通話中</value>
+  </data>
+  <data name="DESKTOP_ERR_MAKING_CALL" xml:space="preserve">
+    <value>電話をかけることができませんでした。再実行してください。</value>
+  </data>
+  <data name="DESKTOP_ERR_UNABLE_SET_PRESENCE_VALUE" xml:space="preserve">
+    <value>プレゼンス値を設定できません</value>
+  </data>
+  <data name="DESKTOP_MODIFY_PHONE_MENU" xml:space="preserve">
+    <value>電話メニューを変更できませんでした。</value>
+  </data>
+  <data name="DESKTOP_ERR_UNABLE_LOGIN" xml:space="preserve">
+    <value>ログインできません。ドメイン\\ユーザー名がシステムで正しく構成されていることを確認してください。
+
+アプリケーションは直ちに終了します。</value>
+  </data>
+  <data name="SESSION_EXPLORER_CLOSE_SESSION" xml:space="preserve">
+    <value>セッションを閉じる</value>
+  </data>
+  <data name="AGENT_DESKTOP_GET_NUMBER_CANCEL_TEXT" xml:space="preserve">
+    <value>キャンセル(&amp;C)</value>
+  </data>
+  <data name="DESKTOP_ANSWER_TEXT" xml:space="preserve">
+    <value>応答(&amp;A)</value>
+  </data>
+  <data name="DESKTOP_ERR_LOADING_APPLICATIONS" xml:space="preserve">
+    <value>アプリケーションの読み込み中にエラーが発生しました。デスクトップは直ちに閉じます。</value>
+  </data>
+  <data name="DESKTOP_VERSIONS_RETRIEVAL_ERROR" xml:space="preserve">
+    <value>CCF データベースと Web サービスのバージョンを取得できませんでした。</value>
+  </data>
+  <data name="DESKTOP_MSG_SQL_EXIST" xml:space="preserve">
+    <value>SQL Server が見つかりません。</value>
+  </data>
+  <data name="DESKTOP_AGENT_DESKTOP_VERSION" xml:space="preserve">
+    <value>エージェント デスクトップのバージョン: </value>
+  </data>
+  <data name="LOOKUP_DLG_ADDRESS" xml:space="preserve">
+    <value>アドレス</value>
+  </data>
+  <data name="DESKTOP_ERR_UNABLE_RESET_CUSTINFO" xml:space="preserve">
+    <value>顧客情報をリセットできません。</value>
+  </data>
+  <data name="DESKTOP_MENU_ITEM_TEXT_ABOUT_CONTACT_CENTER_FRAMEWORK" xml:space="preserve">
+    <value>Customer Care Framework のバージョン情報(&amp;A)</value>
+  </data>
+  <data name="DESKTOP_IIS_ERROR" xml:space="preserve">
+    <value>Web サーバーに接続できませんでした。Web サーバーに接続できることを確認してください。</value>
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="AgentDesktop" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>AgentDesktop.ico;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="DESKTOP_ERR_CONFERENCING_CALL" xml:space="preserve">
+    <value>電話会議番号に電話をかけるときにエラーが発生しました。再実行してください。</value>
+  </data>
+  <data name="SELECT_CALL_DLG_SELECT_A_CALL" xml:space="preserve">
+    <value>一覧の行を選択してください。</value>
+  </data>
+  <data name="DESKTOP_STATUS_TOOLTIP" xml:space="preserve">
+    <value>現在の状態を表示および設定します</value>
+  </data>
+  <data name="DESKTOP_ERR_UNABLE_MARSHALL" xml:space="preserve">
+    <value>通話イベントをメイン スレッドにマーシャリングすることができません。</value>
+  </data>
+  <data name="DESKTOP_ERR_INIT_TELEPHONY" xml:space="preserve">
+    <value>テレフォニー コンポーネントの初期化中にエラーが発生しました。</value>
+  </data>
+  <data name="DESKTOP_CONFERENCE_TEXT" xml:space="preserve">
+    <value>会議(&amp;C)</value>
+  </data>
+  <data name="DESKTOP_MODULE_NAME" xml:space="preserve">
+    <value>エージェント デスクトップ</value>
+  </data>
+  <data name="DESKTOP_DYNAMIC_APP_LAUNCH_CONFIRMATION_MSG" xml:space="preserve">
+    <value>動的ホスト アプリケーションを起動しますか?</value>
+  </data>
+  <data name="AGENT_DESKTOP_ADDR_BOOK_DLG_MSG_NO_ADDR" xml:space="preserve">
+    <value>ダイヤルするアドレスがありません。</value>
+  </data>
+  <data name="SESSION_EXPLORER_LABEL_HELP_ICON_TEXT" xml:space="preserve">
+    <value>ヘルプ</value>
+  </data>
+  <data name="COMMON_MSG_IIS_ERROR" xml:space="preserve">
+    <value>Web サーバーに接続できません</value>
+  </data>
+  <data name="LOOKUP_DLG_SELECT" xml:space="preserve">
+    <value>選択(&amp;S)</value>
+  </data>
+  <data name="DESKTOP_MSG_RINGING" xml:space="preserve">
+    <value>発信中</value>
+  </data>
+  <data name="DESKTOP_ERR_REQUESTASSISTANCE" xml:space="preserve">
+    <value>要求されたアシスタンスの詳細が見つかりませんでした。</value>
+  </data>
+  <data name="DESKTOP_ERR_EXCEPTION" xml:space="preserve">
+    <value>例外:</value>
+  </data>
+  <data name="LOOKUP_DLG_UNABLE_CUST_ID" xml:space="preserve">
+    <value>指定された顧客が見つかりません。</value>
+  </data>
+  <data name="DESKTOP_ERR_REQUEST_ASSISTANCE_MESSAGE" xml:space="preserve">
+    <value>このアカウントではインスタント メッセージングが有効になっていません。アシスタンスを要求することはできません。</value>
+  </data>
+  <data name="LOOKUP_DLG_LABEL7" xml:space="preserve">
+    <value>姓(&amp;T)</value>
+  </data>
+  <data name="DESKTOP_STATUS_TEXT" xml:space="preserve">
+    <value>状態(&amp;S):</value>
+  </data>
+  <data name="DESKTOP_TIMER_TICK_INFO_EXCEPTION" xml:space="preserve">
+    <value>例外:</value>
+  </data>
+  <data name="LOOKUP_DLG_NEED_BOTH_NAMES" xml:space="preserve">
+    <value>名と姓の両方が必要です。名の一部と姓の一部だけでもかまいません。</value>
+  </data>
+  <data name="DESKTOP_WS_VERSION_MISMATCH_ERROR" xml:space="preserve">
+    <value>エージェント デスクトップのバージョンと CCF Web サービスのバージョンが同じではありません。</value>
+  </data>
+  <data name="DESKTOP_LOOKUP_TOOLTIP" xml:space="preserve">
+    <value>顧客レコードのルックアップ</value>
+  </data>
+  <data name="DESKTOP_ERR_MODIFY_STATUS_MENU" xml:space="preserve">
+    <value>エージェントの状態を変更できませんでした。</value>
+  </data>
+  <data name="COMMON_ERR_SQL_CONNECTION" xml:space="preserve">
+    <value>SQL Server が存在しません</value>
+  </data>
+  <data name="ccf_splash_screen_2008" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\ccf_splash_screen_2008.jpg;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="DESKTOP_UNKNOWN_VERSION" xml:space="preserve">
+    <value>不明</value>
+  </data>
+  <data name="LOOKUP_DLG_LOOKUP_NAME" xml:space="preserve">
+    <value>名前のルックアップ(&amp;A)</value>
+  </data>
+  <data name="DESKTOP_LOADNONHOSTEDAPP_ERROR" xml:space="preserve">
+    <value>ホスト アプリケーション以外のアプリケーションを読み込めません。</value>
+  </data>
+  <data name="DESKTOP_APPLICATIONS_TEXT" xml:space="preserve">
+    <value>アプリケーション(&amp;I)</value>
+  </data>
+  <data name="LOOKUP_DLG_LOOKUP_ID" xml:space="preserve">
+    <value> ID のルックアップ(&amp;L)</value>
+  </data>
+  <data name="DESKTOP_ERR_UPDATING_CS_WITH_CURR_APP" xml:space="preserve">
+    <value>アクティブなアプリケーションの現在のセッションを更新するときにエラーが発生しました: {0}</value>
+  </data>
+  <data name="SESSION_EXPLORER_STR_HELP_STRING1" xml:space="preserve">
+    <value>セッションをクリックするとセッションが切り替わり、セッションの最後のアプリケーションが開きます。</value>
+  </data>
+  <data name="DESKTOP_TRANSFER_TEXT" xml:space="preserve">
+    <value>転送(&amp;T)</value>
+  </data>
+  <data name="DESKTOP_PHONE_TOOLTIP" xml:space="preserve">
+    <value>通話の発信と処理</value>
+  </data>
+  <data name="CCF_ABOUT_COPYRIGHT" xml:space="preserve">
+    <value>Copyright © 2000-2007 Microsoft Corporation</value>
+  </data>
+  <data name="DESKTOP_INFOTEXT_CALLING" xml:space="preserve">
+    <value>呼び出し中</value>
+  </data>
+  <data name="DESKTOP_ERR_SETTING_CONTEXT_APP" xml:space="preserve">
+    <value>アプリケーション コンテキストを設定できませんでした。</value>
+  </data>
+  <data name="LOOKUP_DLG_LBL6" xml:space="preserve">
+    <value>電話番号(&amp;H):</value>
+  </data>
+  <data name="LOOKUP_DLG_CANCEL" xml:space="preserve">
+    <value>キャンセル(&amp;C)</value>
+  </data>
+  <data name="LOOKUP_DLG_WORK_PHONE" xml:space="preserve">
+    <value>携帯電話</value>
+  </data>
+  <data name="DESKTOP_ERR_INIT_SESSION" xml:space="preserve">
+    <value>セッション エクスプローラを初期化できませんでした。</value>
+  </data>
+  <data name="DESKTOP_CLOSE_AFTER_TRANSFER" xml:space="preserve">
+    <value>このセッションを今すぐ閉じますか?</value>
+  </data>
+  <data name="DESKTOP_MSG_STARTING_IM" xml:space="preserve">
+    <value>IM (インスタント メッセージング) 会話を開始します</value>
+  </data>
+  <data name="AGENT_DESKTOP_GET_NUMBER_ADDR_BOOK_TEXT" xml:space="preserve">
+    <value>アドレス帳(&amp;A)</value>
+  </data>
+  <data name="DESKTOP_TABAPP_ERROR" xml:space="preserve">
+    <value>選択されたタブからアプリケーションの詳細を取得することができません。</value>
+  </data>
+  <data name="DESKTOP_MSG_OUTGOING" xml:space="preserve">
+    <value>発信</value>
+  </data>
+  <data name="DESKTOP_INFO_AGENT_DESKTOP_EXITED" xml:space="preserve">
+    <value>エージェント デスクトップが終了しました。</value>
+  </data>
+  <data name="DESKTOP_ERR_IN_CALL_EVENT" xml:space="preserve">
+    <value>通話イベントでエラーが発生しました。</value>
+  </data>
+  <data name="DESKTOP_HANGUP_TEXT" xml:space="preserve">
+    <value>切断(&amp;H)</value>
+  </data>
+  <data name="DESKTOP_ERR_IN_LOAD" xml:space="preserve">
+    <value>デスクトップの読み込み中にエラーが発生しました。</value>
+  </data>
+  <data name="CCF_ABOUT_VERSION" xml:space="preserve">
+    <value>Version 3.0</value>
+  </data>
+  <data name="DESKTOP_ERR_TRANSFERRING_SESSION" xml:space="preserve">
+    <value>セッションの転送中にエラーが発生しました。</value>
+  </data>
+  <data name="LOOKUP_DLG_LAST" xml:space="preserve">
+    <value>姓</value>
+  </data>
+  <data name="SESSION_EXPLORER_STR_HELP_STRING2" xml:space="preserve">
+    <value>アプリケーションをクリックすると、セッションがそのアプリケーションに切り替わります。</value>
+  </data>
+  <data name="SESSION_EXPLORER_ERR_DISPLAYING_HELP" xml:space="preserve">
+    <value>セッション エクスプローラのヘルプの表示と非表示を切り替えることができませんでした。</value>
+  </data>
+  <data name="DESKTOP_ERR_CHANGING_SESSION" xml:space="preserve">
+    <value>現在のセッションでセッションを変更するときにエラーが発生しました。</value>
+  </data>
+  <data name="DESKTOP_ERR_PREFILTERING_MSG" xml:space="preserve">
+    <value>メッセージの事前フィルタ処理中にエラーが発生しました。</value>
+  </data>
+  <data name="LOOKUP_DLG_LABEL1" xml:space="preserve">
+    <value>顧客 ID(&amp;U):</value>
+  </data>
+  <data name="DESKTOP_MSG_STARTING" xml:space="preserve">
+    <value>エージェント デスクトップを起動しています...</value>
+  </data>
+  <data name="AGENT_DESKTOP_GET_NUMBER_ERR_READING_ADDR_BOOK" xml:space="preserve">
+    <value>アドレス帳の読み取り中に問題が発生しました。</value>
+  </data>
+  <data name="AGENT_DESKTOP_GET_NUMBER_LABEL1_TEXT" xml:space="preserve">
+    <value>呼び出し:</value>
+  </data>
+  <data name="DESKTOP_MSG_UNABLE_FIND_ASSISTANCE" xml:space="preserve">
+    <value>アシスタンスが見つかりません:</value>
+  </data>
+  <data name="DESKTOP_GETNUMBER_CONFERENCE" xml:space="preserve">
+    <value>会議</value>
+  </data>
+  <data name="AGENT_DESKTOP_ADDR_BOOK_DLG_MSG_SELECT_ADDR" xml:space="preserve">
+    <value>ダイヤルするアドレスを選択する必要があります。</value>
+  </data>
+  <data name="AGENT_DESKTOP_ADDR_BOOK_DLG_CANCEL_TEXT" xml:space="preserve">
+    <value>キャンセル(&amp;C)</value>
+  </data>
+  <data name="DESKTOP_INFO_NO_CURRENT_CALL" xml:space="preserve">
+    <value>現在の通話はありません。</value>
+  </data>
+  <data name="DESKTOP_ERR_RETRIEVING_AGENT_PHONE_NUMBER" xml:space="preserve">
+    <value>指定されたエージェント電話番号でエージェント識別子を取得するときにエラーが発生しました。</value>
+  </data>
+  <data name="SESSION_HAS_A_CONNECTED_CALL" xml:space="preserve">
+    <value>このセッションにはまだ通話があります。
+
+通話を切断しますか?</value>
+  </data>
+  <data name="SESSION_EXPLORER_STR_WORKFLOW_PENDING_MSG1" xml:space="preserve">
+    <value>このセッションのワークフローは保留中です。</value>
+  </data>
+  <data name="AGENT_DESKTOP_ADDR_BOOK_DLG_ERR_READING_ADDR_BOOK" xml:space="preserve">
+    <value>アドレス帳の読み取り中にエラーが発生しました。</value>
+  </data>
+  <data name="DESKTOP_ERR_UNABLE_ESTABLISH_CONNECTION" xml:space="preserve">
+    <value>テレフォニー コンポーネントとの接続を確立できません。</value>
+  </data>
+  <data name="SELECT_CALL_DLG_STATE_COL" xml:space="preserve">
+    <value>状態</value>
+  </data>
+  <data name="DESKTOP_MSG_CALLS" xml:space="preserve">
+    <value>通話</value>
+  </data>
+  <data name="DESKTOP_PHONE_TEXT" xml:space="preserve">
+    <value>電話(&amp;P)</value>
+  </data>
+  <data name="DESKTOP_CLOSE_SESSION_TOOLTIP" xml:space="preserve">
+    <value>現在のセッションを閉じます</value>
+  </data>
+  <data name="DESKTOP_ERR_FATAL_UNABLE_LOG" xml:space="preserve">
+    <value>エラーが発生しました。ユーザー ログインまたはデータベース設定が正しくないか、データベースにアクセスできない可能性があります。</value>
+  </data>
+  <data name="DESKTOP_DB_VERSION_MISMATCH_ERROR" xml:space="preserve">
+    <value>エージェント デスクトップのバージョンと CCF データベースのバージョンが同じではありません。</value>
+  </data>
+  <data name="DESKTOP_ERR_UNABLE_WEBSERVICE" xml:space="preserve">
+    <value>Web サービスを開始できませんでした。</value>
+  </data>
+  <data name="DESKTOP_INFO_CALL_LENGTH_PLURAL" xml:space="preserve">
+    <value>通話時間が {0} 分経過しました</value>
+  </data>
+  <data name="CCF_ABOUT_DOTNET_VERSION" xml:space="preserve">
+    <value>.Net のバージョン: </value>
+  </data>
+  <data name="SELECT_CALL_DLG_PARTIES_COL" xml:space="preserve">
+    <value>パーティ</value>
+  </data>
+  <data name="SELECT_CALL_DLG_BTN_CANCEL" xml:space="preserve">
+    <value>キャンセル(&amp;C)</value>
+  </data>
+  <data name="APPLICATION_NAME" xml:space="preserve">
+    <value>エージェント デスクトップ</value>
+  </data>
+  <data name="AGENT_DESKTOP_GET_NUMBER_OK_TEXT" xml:space="preserve">
+    <value>ダイヤル(&amp;D)</value>
+  </data>
+  <data name="DESKTOP_UNABLE_TO_CLOSE_DYNAMIC_APP_DUE_TO_WORKFLOW" xml:space="preserve">
+    <value>This dynamic application cannot be closed until the workflow is done or cancelled.</value>
+  </data>
+  <data name="DESKTOP_ERR_READING_OR_PARSING_APPSETTINGS" xml:space="preserve">
+    <value>An error has occurred while retrieving or parsing the {0} AppSettings value.</value>
+  </data>
+</root>
